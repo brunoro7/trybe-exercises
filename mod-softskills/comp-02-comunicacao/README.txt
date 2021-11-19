@@ -1,0 +1,1 @@
+Aqui estarão todas as informações relacionadas ao competência 02, comunicação, todos os exercícios e atividades realizados por mim, durante o curso.
