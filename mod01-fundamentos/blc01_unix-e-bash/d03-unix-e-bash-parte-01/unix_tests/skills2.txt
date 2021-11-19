@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+Html
+Css
+Git
+GitHub
+Scrum
