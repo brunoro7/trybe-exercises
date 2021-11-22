@@ -1,0 +1,22 @@
+Essa atividade foi realizada com intuito de fazer uma reflexão sobre a diversidade e inclusão, e com "base nisso", o quanto você se aproxima ou não de "situações de exclusão".
+
+==> Foi proposto para isso que, utilize um bloco de notas físico ou digital, ou calcule mentalmente a sua pontuação.
+
+    A cada frase com a qual você se identificar, você deverá somar ou subtrair um ponto do seu total, ou não fazer nada e aguardar a próxima rodada. Não colocarei as frases para não expor o conteúdo da Trybe.
+
+        começa em 0.
+
+        +1
+        -1
+        +1
+        -1
+        +1
+        0
+        0
+        -1
+        +1
+        0
+
+        soma: 1
+
+    Nessa atividade, a pontuação final varia entre -5 e 5 pontos. Mas o que isso representa? Quanto mais próxima de menos cinco estiver a sua pontuação, menos privilégios você teve por sua identidade, e aumentam as chances de você já ter vivido episódios de exclusão. Quanto mais perto de cinco estiver a sua pontuação, mais longe você deve estar das identidades que costumam sofrer preconceitos.
