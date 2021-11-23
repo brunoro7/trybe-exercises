@@ -23,11 +23,11 @@ body{
     text-decoration: snow;
   }
   .colorYellow{
-    color:yellow;
+    background-color:yellow;
   }
   .colorRed{
-    color: red;
+    background-color: red;
   }
   .colorBurlywood{
-    color: burlywood;
+    background-color: burlywood;
   }
