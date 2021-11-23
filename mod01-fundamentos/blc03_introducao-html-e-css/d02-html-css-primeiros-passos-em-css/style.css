@@ -1,0 +1,33 @@
+body{
+    font-size: 16px;
+  }
+  h1{
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+  }
+  ul{
+    background-color: silver;
+    }
+  .altColorPandU{
+    color: blue;
+  }
+  p{
+    font-weight: 600;
+    font-size: 48px;
+  }
+  li{
+    font-style: italic;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: snow;
+  }
+  .colorYellow{
+    color:yellow;
+  }
+  .colorRed{
+    color: red;
+  }
+  .colorBurlywood{
+    color: burlywood;
+  }
