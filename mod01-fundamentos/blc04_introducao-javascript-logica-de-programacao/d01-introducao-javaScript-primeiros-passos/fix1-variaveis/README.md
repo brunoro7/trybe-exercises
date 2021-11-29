@@ -1,0 +1,1 @@
+Este foi um exercício para reforçar o conhecimento e diferença entre let e const.
