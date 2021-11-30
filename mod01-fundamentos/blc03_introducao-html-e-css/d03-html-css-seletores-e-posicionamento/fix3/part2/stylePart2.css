@@ -1,0 +1,12 @@
+/** ======= criando bordas hover nas divs ======= */
+
+div {
+    border: solid 2px white;
+    margin-top: 1px;
+}
+
+div:hover {
+    border: solid 2px orchid;
+    margin-top: 1px;
+}
+
