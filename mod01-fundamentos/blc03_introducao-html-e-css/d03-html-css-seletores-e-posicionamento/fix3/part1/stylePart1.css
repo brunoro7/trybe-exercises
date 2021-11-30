@@ -6,7 +6,8 @@ p {
     text-align: center;
 }
 
-li:hover{
+ol li:hover{
+    width: 100px;;
     background-color: orange;
 }
 
