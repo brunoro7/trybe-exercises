@@ -1,4 +1,4 @@
-/** ======= criando bordas hover nas divs ======= */
+/** ======= Criando bordas hover nas divs. ======= */
 
 div {
     border: solid 2px white;
@@ -10,3 +10,17 @@ div:hover {
     margin-top: 1px;
 }
 
+/** ======= Colocando uma cor em cada div, sem classes ou id's. ======= */
+
+
+/** ======= Estilizando cada tag h3. ======= */
+
+
+/** ======= Deixando a 3ª div maior do que as demais. ======= */
+
+
+/** ======= Colocando as tags h3 ímpares com texto itálico.  ======= */
+
+body>div:nth-child(odd) {
+  font-style: italic;
+}
