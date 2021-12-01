@@ -28,7 +28,7 @@ O programa conta com mais de 1.500 horas de aulas online, abordando Introdução
 - [X] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [X] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [X] 3-4: _HTML Semântico_
-- [X] 3-5: _[Projeto - Lessons Learned](#)_
+- [X] 3-5: _[Projeto - Lessons Learned](https://github.com/brunoro7/trybe-exercises/tree/main/mod01-fundamentos/blc03_introducao-html-e-css/d05-projeto-lessons-learned)_
 
 ##### [Bloco 4: Introdução à JavaScript e Lógica de Programação]
 
