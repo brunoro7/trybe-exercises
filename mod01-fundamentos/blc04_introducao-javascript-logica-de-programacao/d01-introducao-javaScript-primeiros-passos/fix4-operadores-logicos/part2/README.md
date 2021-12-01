@@ -1,0 +1,1 @@
+> ### Aqui está o exercício, part2, referente ao "or" (||).
