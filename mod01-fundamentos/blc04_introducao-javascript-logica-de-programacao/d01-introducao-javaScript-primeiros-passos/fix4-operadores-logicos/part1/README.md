@@ -1,0 +1,1 @@
+> ### Aqui está o exercício relacionado aos operados "or", "and" ou "not".
