@@ -1,0 +1,1 @@
+> ### Aqui está o exercício ralativo ao and (&&)!
