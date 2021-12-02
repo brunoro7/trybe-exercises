@@ -1,0 +1,1 @@
+> ### Aqui é o exercício relacionado a função switch and case.
