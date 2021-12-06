@@ -1,0 +1,1 @@
+> ### Exercício de fixação referente ao getElementById.
