@@ -8,16 +8,77 @@ div {
 div:hover {
     border: solid 2px orchid;
     margin-top: 1px;
+    cursor:pointer;
 }
 
 /** ======= Colocando uma cor em cada div, sem classes ou id's. ======= */
 
+div:nth-of-type(1){
+  background-color: orange;
+}
+
+div:nth-of-type(2){
+  background-color: blueviolet;
+}
+
+div:nth-of-type(3){
+  background-color: lightblue;
+}
+
+div:nth-of-type(4){
+  background-color: lightgrey;
+}
+
+div:nth-of-type(5){
+  background-color: burlywood;
+}
 
 /** ======= Estilizando cada tag h3. ======= */
 
+div:nth-of-type(1){
+  color: white;
+  text-align: center;
+  text-decoration: underline double;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+div:nth-of-type(2){
+  color: white;
+  text-align: center;
+  text-decoration: underline double;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+div:nth-of-type(3){
+  color: white;
+  text-align: center;
+  text-decoration: underline double;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+div:nth-of-type(4){
+  color: white;
+  text-align: center;
+  text-decoration: underline double;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+div:nth-of-type(5){
+  color: white;
+  text-align: center;
+  text-decoration: underline double;
+  font-weight: bolder;
+  font-size: 20px;
+}
 
 /** ======= Deixando a 3ª div maior do que as demais. ======= */
-
+div:nth-of-type(3){
+  height: 100px;
+}
 
 /** ======= Colocando as tags h3 ímpares com texto itálico.  ======= */
 
