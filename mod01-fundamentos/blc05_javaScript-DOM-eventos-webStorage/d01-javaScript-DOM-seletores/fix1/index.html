@@ -8,10 +8,20 @@
       <p id="second-paragraph">Segundo parágrafo!</p>
     </header>
     <script>
+      
       const paragraph = document.getElementById("paragraph");
-      paragraph.style.color = "red";
-    
-    
+      const pageTitle = document.getElementById("page-title");
+      const subTitle = document.getElementById("subtitle");
+      const secondParagraph = document.getElementById("second-paragraph");
+      
+        paragraph.style.color = "red";
+        pageTitle.innerHTML = "Á espera de um milagre.";
+
+        secondParagraph.style.background = "rgb(2, 100, 155)";
+        secondParagraph.innerHTML = "Este filme é sobre luta contra injustiça, racismo e apoio, simplismente incrível!";
+        
+        subTitle.style.color = "blue";
+
     </script>
   </body>
 </html>
