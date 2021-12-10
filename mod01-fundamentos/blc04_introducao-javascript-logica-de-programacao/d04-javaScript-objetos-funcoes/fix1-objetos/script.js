@@ -14,3 +14,12 @@ let fraseJogadora = "A jogadora " + player.name + " " + player.lastName + " tem 
 
 console.log(fraseJogadora);
 
+/** ======= Criando objeto ======= */
+
+let bestInTheWorld = {
+    datasBestInTheWorld: [2006, 2007, 2008, 2009, 2010, 2018],
+}
+    let arrayBestDatas = bestInTheWorld.datasBestInTheWorld;
+
+console.log(arrayBestDatas);
+
