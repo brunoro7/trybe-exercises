@@ -1,4 +1,4 @@
-/** ======= declarando objeto ======= */
+/** ======= Requisito 1, declarando objeto ======= */
 
     let names = {
         person1: 'João',
@@ -16,3 +16,16 @@
         console.log(cadaMensagem);
     };
 
+/** =======  Requisito 2, usando For/In para imprimir as chaves e os valores ======= */
+
+    let car = {
+        model: 'A3 Sedan',
+        manufacturer: 'Audi',
+        year: 2020
+    };
+
+    for ( index in car){
+        cadaTipo = (car[index]);
+        
+        console.log(index, cadaTipo);
+    };
