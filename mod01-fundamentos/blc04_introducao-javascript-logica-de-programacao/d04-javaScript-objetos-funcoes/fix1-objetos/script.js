@@ -29,3 +29,8 @@ let fraseBestWorld = "A jogadora " + player.name + player.lastName + " foi eleit
 
 console.log(fraseBestWorld)
 
+/** ======= acessando medals e concatenando entre uma frase ======= */
+
+let fraseMedals = "A jogadora possui " + player.medals.golden + " medalhas de ouro e " + player.medals.silver + " medalhas de prata"
+
+console.log(fraseMedals)
