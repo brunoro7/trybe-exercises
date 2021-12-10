@@ -23,3 +23,9 @@ let bestInTheWorld = {
 
 console.log(arrayBestDatas);
 
+/** ======= acessando bestInTheWorld e concatenando em uma frase ======= */
+
+let fraseBestWorld = "A jogadora " + player.name + player.lastName + " foi eleita a melhor do mundo 6 vezes";
+
+console.log(fraseBestWorld)
+
