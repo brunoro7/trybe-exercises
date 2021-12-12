@@ -39,12 +39,22 @@ ul li a:hover {
     font-weight: bold;
 }
 
-.stackOrange{}
+.stackOrange:hover {
+    color: orange;
+}
 
-.w3Green {}
+.w3Green:hover {
+    color: lightgreen;
+}
 
-.mdnBlack {}
+.mdnBlack:hover {
+    color: black;
+}
 
-.devYellow {}
+.devYellow:hover {
+    color: gold;
+}
 
-.trybeGreen {}
+.trybeGreen:hover {
+    color: darkgreen;
+}
