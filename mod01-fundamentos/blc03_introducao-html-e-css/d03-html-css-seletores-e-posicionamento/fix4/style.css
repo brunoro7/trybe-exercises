@@ -1,0 +1,60 @@
+ol {
+    background-color: yellow;
+}
+
+ol li:nth-child(even){
+    color:darkgreen;
+}
+
+ol li:nth-child(odd){
+    text-transform: uppercase;
+}
+
+.titulos {
+    color: red;
+}
+
+.titulos em {
+    font-size: 40px;
+    border: solid 1px black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em{
+    font-weight: bold;
+}
+
+.blueLi {
+    color: blue;
+}
+
+.javaPink {
+    background-color: pink;
+}
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+.stackOrange:hover {
+    color: orange;
+}
+
+.w3Green:hover {
+    color: lightgreen;
+}
+
+.mdnBlack:hover {
+    color: black;
+}
+
+.devYellow:hover {
+    color: gold;
+}
+
+.trybeGreen:hover {
+    color: darkgreen;
+}
