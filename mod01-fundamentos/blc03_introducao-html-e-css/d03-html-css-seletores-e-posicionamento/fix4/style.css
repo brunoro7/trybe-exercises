@@ -26,3 +26,11 @@ li {
 li em{
     font-weight: bold;
 }
+
+.blueLi {
+    color: blue;
+}
+
+.javaPink {
+    background-color: pink;
+}
