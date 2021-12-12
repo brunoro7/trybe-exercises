@@ -34,3 +34,17 @@ li em{
 .javaPink {
     background-color: pink;
 }
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+.stackOrange{}
+
+.w3Green {}
+
+.mdnBlack {}
+
+.devYellow {}
+
+.trybeGreen {}
