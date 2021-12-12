@@ -14,7 +14,7 @@ ol li:nth-child(odd){
     color: red;
 }
 
-.italicTitulos {
+.titulos em {
     font-size: 40px;
     border: solid 1px black;
 }
