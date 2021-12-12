@@ -9,3 +9,12 @@ ol li:nth-child(even){
 ol li:nth-child(odd){
     text-transform: uppercase;
 }
+
+.titulos {
+    color: red;
+}
+
+.italicTitulos {
+    font-size: 40px;
+    border: solid 1px black;
+}
