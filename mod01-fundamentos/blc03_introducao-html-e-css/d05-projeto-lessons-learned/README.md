@@ -4,4 +4,6 @@
 
 ## Link para minha versão do projeto:
 
-> [==> Brunoro7 - Lessons Learned <==](#)
+> [Repositório Brunoro7 - Lessons Learned](https://github.com/brunoro7/project-Lessons-Learned)
+
+> [==> Project Lessons Learned Page <==](https://brunoro7.github.io/project-Lessons-Learned/)
