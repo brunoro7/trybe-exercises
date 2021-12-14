@@ -1,0 +1,1 @@
+> ### Neste exercício é solicitado que sejam feitas 15 funções e/ou lógicas, cada uma para atender seus requisitos.
