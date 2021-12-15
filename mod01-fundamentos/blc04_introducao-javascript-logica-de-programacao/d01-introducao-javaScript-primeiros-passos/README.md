@@ -1,0 +1,1 @@
+> ### Aqui estão os exercícios de fixação e completmentar as matérias do dia 01, relacionados ao JavaScript, contêm, coisas fundamentais como variáveis, tipos primitivos, dinâmica, if/else, operadores lógicos e switch/case.
