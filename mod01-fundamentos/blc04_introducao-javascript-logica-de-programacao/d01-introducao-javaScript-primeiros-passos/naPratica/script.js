@@ -22,8 +22,8 @@
 
 /** ======= O maior de 2 números ======= */
 
-  let Num1 = 5;
-  let Num2 = 3;
+  const Num1 = 5;
+  const Num2 = 3;
   let maiorDeDois;
 
   if(Num1>Num2){
