@@ -127,6 +127,55 @@
     break
     }
 
-  console.log(movsPcs);
+  // console.log(movsPcs);
 
-  /** ======= proximo ======= */
+  /** ======= Programa de Notas de A à F ======= */
+  
+  let notaEmPorcent = "80%";
+  let notaConvert = parseInt(notaEmPorcent);
+  let notaEmAlfabet;
+
+  if (notaConvert > 100 || notaConvert < 0){
+    notaEmAlfabet = "Essa não é uma nota válida.";
+  }
+  else if (notaConvert >= 90){
+    notaEmAlfabet = "A";
+  }
+  else if (notaConvert >= 80){
+    notaEmAlfabet = "B";
+  }
+  else if (notaConvert >= 70){
+    notaEmAlfabet = "C";
+  }
+
+  else if (notaConvert >= 60){
+    notaEmAlfabet = "D";
+  }
+
+  else if (notaConvert >= 50){
+    notaEmAlfabet = "E";
+  }
+
+  else if (notaConvert < 50){
+    notaEmAlfabet = "F";
+  }
+
+  // console.log(notaEmAlfabet);
+
+/** ======= proximo ======= */
+
+
+
+/** ======= proximo ======= */
+
+/** ======= proximo ======= */
+
+/** ======= proximo ======= */
+
+/** ======= proximo ======= */
+
+/** ======= proximo ======= */
+
+/** ======= proximo ======= */
+
+/** ======= proximo ======= */
