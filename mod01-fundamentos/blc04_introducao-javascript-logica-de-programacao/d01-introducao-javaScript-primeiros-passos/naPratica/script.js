@@ -74,4 +74,23 @@
   }
   console.log(resposta);
 
-  
+  /** ======= Triangulo é true ou false ======= */
+  //tringulo para ser válido a soma dos 3 angulos é 180;
+
+  const angA = 90;
+  const angB = 60;
+  const angC = 60;
+
+  let tringuloResult;
+
+  if(angA<=0 || angB<=0 || angC<=0){
+    tringuloResult = "error message, invalid number";
+  }
+  else if(angA+angB+angC===180){
+    tringuloResult = true;
+  }
+  else if(angA+angB+angC!==180){
+    tringuloResult = false;
+  }
+
+console.log(tringuloResult);
