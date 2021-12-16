@@ -39,18 +39,19 @@
 
 /** ======= O maior de 3 números ======= */
 
-  let valor1 = 5;
-  let valor2 = 3;
-  let valor3 = 10;
+  const valor1 = 5;
+  const valor2 = 3;
+  const valor3 = 10;
   let maiorDeTres;
 
-  if(valor1>valor2){
+  if(valor1>valor2 & valor1>valor3){
     maiorDeTres = "valor1";
   }
-  else if(valor2>valor1){
+  else if(valor2>valor1 & valor2>valor3){
     maiorDeTres = "valor2";
-  else if(valor2>valor1){
-      maiorDeTres = "valor2";
+  }
+  else if(valor3>valor1 & valor3>valor2){
+      maiorDeTres = "valor3";
   }
   else{
     maiorDeTres = "Números iguais.";
