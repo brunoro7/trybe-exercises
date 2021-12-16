@@ -14,11 +14,11 @@
   // Módulo
   let moduloResto = valorA % valorB;
 
-  console.log(soma);
-  console.log(subtracao);
-  console.log(mutliplicacao);
-  console.log(divisao);
-  console.log(moduloResto);
+  // console.log(soma);
+  // console.log(subtracao);
+  // console.log(mutliplicacao);
+  // console.log(divisao);
+  // console.log(moduloResto);
 
 /** ======= O maior de 2 números ======= */
 
@@ -35,7 +35,7 @@
   else{
     maiorDeDois = "Números iguais.";
   }
-  console.log(maiorDeDois);
+  // console.log(maiorDeDois);
 
 /** ======= O maior de 3 números ======= */
 
@@ -56,7 +56,7 @@
   else{
     maiorDeTres = "Números iguais.";
   }
-  console.log(maiorDeTres);
+  // console.log(maiorDeTres);
 
   /** ======= Definir se o número é positivo ou negativo ======= */
 
@@ -72,7 +72,7 @@
   else{
       resposta = "zero";
   }
-  console.log(resposta);
+  // console.log(resposta);
 
   /** ======= Triangulo é true ou false ======= */
   //tringulo para ser válido a soma dos 3 angulos é 180;
@@ -93,32 +93,46 @@
     tringuloResult = false;
   }
 
-console.log(tringuloResult);
+// console.log(tringuloResult);
 
 /** ======= Movimentos peça de xadrez ======= */
 //talvez usar um objeto como lista!?
+  // let listaDePecas= {
+  //   nome:"peao",
+  //   movimento: "Pode ser duas casa na saída, depois uma casa vez.",
 
-let listaDePecas= {
-  nome:"peao",
-  movimento: "pode ser duas casa na saida, depois uma casa a frente",
+  //   nome:"torre",
+  //   movimento:"Quantas quiser em linha reta.",
 
-  nome:"torre",
-  movimento:,
+  //   nome: "cavalo",
+  //   movimento: "Forma de 'L'",
 
-  nome: "cavalo",
-  movimento:,
+  //   nome:"bispo",
+  //   movimento:,
 
-  nome:"bispo",
-  movimento:,
+  //   nome: "rainha",
+  //   movimento:,
 
-  nome: "rainha",
-  movimento:,
+  //   nome:"rei",
+  //   movimento:,
+  // }
 
-  nome:"rei",
-  movimento:,
-}
+  //Tentar fazer com switch and Case:
 
-//Tentar fazer com switch and Case:
+  const nomePc = "peao";
+  let movsPcs = "";
 
-  const nomePeça = peao;
-  let movsPeças;
+  switch (nomePc){
+    
+    case "peao":
+      movsPcs = "Pode ser duas casa na saída, depois uma casa vez.";
+    break;
+
+
+    default:
+      "Peça Não existe."
+    
+    return movsPcs
+    }
+
+  console.log(movsPcs);
