@@ -57,3 +57,21 @@
     maiorDeTres = "Números iguais.";
   }
   console.log(maiorDeTres);
+
+  /** ======= Definir se o número é positivo ou negativo ======= */
+
+  const number = -7;
+  let resposta;
+
+  if(number!=0 & number>0){
+    resposta = "positive";
+  }
+  else if(number!=0 & number<0){
+    resposta = "negative";
+  }
+  else{
+      resposta = "zero";
+  }
+  console.log(resposta);
+
+  
