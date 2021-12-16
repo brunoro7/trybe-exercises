@@ -96,43 +96,37 @@
 // console.log(tringuloResult);
 
 /** ======= Movimentos peça de xadrez ======= */
-//talvez usar um objeto como lista!?
-  // let listaDePecas= {
-  //   nome:"peao",
-  //   movimento: "Pode ser duas casa na saída, depois uma casa vez.",
 
-  //   nome:"torre",
-  //   movimento:"Quantas quiser em linha reta.",
-
-  //   nome: "cavalo",
-  //   movimento: "Forma de 'L'",
-
-  //   nome:"bispo",
-  //   movimento:,
-
-  //   nome: "rainha",
-  //   movimento:,
-
-  //   nome:"rei",
-  //   movimento:,
-  // }
-
-  //Tentar fazer com switch and Case:
-
-  const nomePc = "peao";
+  const nomePc = "Rainha";
+  let comparaNomePc = nomePc.toLowerCase();
   let movsPcs = "";
 
-  switch (nomePc){
+  switch (comparaNomePc){
     
     case "peao":
-      movsPcs = "Pode ser duas casa na saída, depois uma casa vez.";
+      movsPcs = "Pode ser duas casa na saída, depois uma casa por vez a frente.";
+    break;
+    case "torre":
+      movsPcs = "Quantas casas quiser em linha reta ou lateral.";
+    break;
+    case "cavalo":
+      movsPcs = "Anda em formato de 'L' para qualquer lado.";
+    break;
+    case "bispo":
+      movsPcs = "Qualquer uma das suas diagonais.";
+    break;
+    case "rei":
+      movsPcs = "Uma casa por vez, para qualquer lado.";
+    break;
+    case "rainha":
+      movsPcs = "Pode se mover para qualquer lado, quantas casas quiser.";
     break;
 
-
     default:
-      "Peça Não existe."
-    
-    return movsPcs
+      movsPcs = "Peça não existe."
+    break
     }
 
   console.log(movsPcs);
+
+  /** ======= proximo ======= */
