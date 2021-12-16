@@ -94,3 +94,31 @@
   }
 
 console.log(tringuloResult);
+
+/** ======= Movimentos peça de xadrez ======= */
+//talvez usar um objeto como lista!?
+
+let listaDePecas= {
+  nome:"peao",
+  movimento: "pode ser duas casa na saida, depois uma casa a frente",
+
+  nome:"torre",
+  movimento:,
+
+  nome: "cavalo",
+  movimento:,
+
+  nome:"bispo",
+  movimento:,
+
+  nome: "rainha",
+  movimento:,
+
+  nome:"rei",
+  movimento:,
+}
+
+//Tentar fazer com switch and Case:
+
+  const nomePeça = peao;
+  let movsPeças;
