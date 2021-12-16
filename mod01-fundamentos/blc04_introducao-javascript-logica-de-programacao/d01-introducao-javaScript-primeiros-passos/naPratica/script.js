@@ -1,7 +1,7 @@
 /** ======= 5 Programas, um pra cada operação aritimética ======= */
 
-  let valorA = 5;
-  let valorB = 3;
+  const valorA = 5;
+  const valorB = 3;
 
   // Soma 
   let soma = valorA + valorB;
@@ -38,3 +38,21 @@
   console.log(maiorDeDois);
 
 /** ======= O maior de 3 números ======= */
+
+  let valor1 = 5;
+  let valor2 = 3;
+  let valor3 = 10;
+  let maiorDeTres;
+
+  if(valor1>valor2){
+    maiorDeTres = "valor1";
+  }
+  else if(valor2>valor1){
+    maiorDeTres = "valor2";
+  else if(valor2>valor1){
+      maiorDeTres = "valor2";
+  }
+  else{
+    maiorDeTres = "Números iguais.";
+  }
+  console.log(maiorDeTres);
