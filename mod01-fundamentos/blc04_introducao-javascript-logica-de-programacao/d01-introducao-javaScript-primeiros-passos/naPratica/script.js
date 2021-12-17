@@ -162,22 +162,21 @@
 
 //   // console.log(notaEmAlfabet);
 
-/** ======= De 3 se um for Par é True ======= */
+/** ======= De 3 numeros, se um deles for Par é True (tentar so c/ 1 "if") ======= */
 
-  let tresNum = [7, 10, 3];
-  
-  let trueOrFalse = Boolean;
-  for(let i=0; i<tresNum.length; i+=1){
-    
-    if((tresNum[i]%2)===0){
-      trueOrFalse = true;  
-    }
-    else{
-      trueOrFalse = false;
-    }
-    return trueOrFalse
+  const numA = 7;
+  const numB = 10;
+  const numC = 3;
+
+  let resultTrueOrFalse;
+  if(numA%2===1 && numB%2===1 && numC%2===1){
+    resultTrueOrFalse = false;
   }
-console.log(trueOrFalse);
+  else{
+    resultTrueOrFalse = true;
+  }
+  console.log(resultTrueOrFalse);
+
 /** ======= proximo ======= */
 
 /** ======= proximo ======= */
