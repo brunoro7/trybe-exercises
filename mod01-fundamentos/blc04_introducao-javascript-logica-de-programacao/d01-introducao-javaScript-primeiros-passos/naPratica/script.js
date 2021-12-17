@@ -178,21 +178,39 @@
 //   console.log(resultTrueOrFalse);
 
 /** ======= De 3 numeros, se um deles for Ímpar é True (bonus = tentar so c/ 1 "if") ======= */
-const numeralA = 12;
-const numeralB = 7;
-const numeralC = 64;
+  // const numeralA = 12;
+  // const numeralB = 7;
+  // const numeralC = 64;
 
-let resultTrueOrFalse;
-if(numeralA%2===0 && numeralB%2===0 && numeralC%2===0){
-  resultTrueOrFalse2 = false;
-}
-else{
-  resultTrueOrFalse2 = true;
-}
-console.log(resultTrueOrFalse2);
+  // let resultTrueOrFalse;
+  // if(numeralA%2===0 && numeralB%2===0 && numeralC%2===0){
+  //   resultTrueOrFalse2 = false;
+  // }
+  // else{
+  //   resultTrueOrFalse2 = true;
+  // }
+  // console.log(resultTrueOrFalse2);
 
+/** ======= Calcular valor liquido, usando custo/venda, incidido em 20% ======= */
 
-/** ======= proximo ======= */
+  const valorCusto = 10;
+  const valorVenda = 20;
+  const valorIncide = 2; //é 20%, preciso fazer só o cálculo.
+  
+  const valorCustoTotal = valorCusto+valorIncide;
+  const liquidCalc = valorVenda-valorCustoTotal;
+  let produtosVendidos = 1000;
+  let liquidoEmpresa = liquidCalc * produtosVendidos;
+  let resultEmpresa = liquidoEmpresa.toFixed(2);
+  let mensagemErro = "Valor abaixo de 0.";
+  
+  if(valorCusto<0 || valorVenda<0){
+    resultFinal = mensagemErro;
+  }
+  else {
+    resultFinal = resultEmpresa;
+  }
+  console.log(resultEmpresa);
 
 /** ======= proximo ======= */
 
