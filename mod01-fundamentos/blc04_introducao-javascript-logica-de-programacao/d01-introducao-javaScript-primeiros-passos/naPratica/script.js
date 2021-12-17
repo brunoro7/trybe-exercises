@@ -162,22 +162,35 @@
 
 //   // console.log(notaEmAlfabet);
 
-/** ======= De 3 numeros, se um deles for Par é True (tentar so c/ 1 "if") ======= */
+// /** ======= De 3 numeros, se um deles for Par é True (bonus = tentar so c/ 1 "if") ======= */
 
-  const numA = 7;
-  const numB = 10;
-  const numC = 3;
+//   const numA = 7;
+//   const numB = 10;
+//   const numC = 3;
 
-  let resultTrueOrFalse;
-  if(numA%2===1 && numB%2===1 && numC%2===1){
-    resultTrueOrFalse = false;
-  }
-  else{
-    resultTrueOrFalse = true;
-  }
-  console.log(resultTrueOrFalse);
+//   let resultTrueOrFalse;
+//   if(numA%2===1 && numB%2===1 && numC%2===1){
+//     resultTrueOrFalse = false;
+//   }
+//   else{
+//     resultTrueOrFalse = true;
+//   }
+//   console.log(resultTrueOrFalse);
 
-/** ======= proximo ======= */
+/** ======= De 3 numeros, se um deles for Ímpar é True (bonus = tentar so c/ 1 "if") ======= */
+const numeralA = 12;
+const numeralB = 7;
+const numeralC = 64;
+
+let resultTrueOrFalse;
+if(numeralA%2===0 && numeralB%2===0 && numeralC%2===0){
+  resultTrueOrFalse2 = false;
+}
+else{
+  resultTrueOrFalse2 = true;
+}
+console.log(resultTrueOrFalse2);
+
 
 /** ======= proximo ======= */
 
