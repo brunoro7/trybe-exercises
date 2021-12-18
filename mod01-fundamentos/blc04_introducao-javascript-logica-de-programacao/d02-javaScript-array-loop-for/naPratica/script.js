@@ -75,7 +75,13 @@
 
 /** ======= Estes próximos 2 são separados dos acima ======= */
 
-/** ======= 8 ======= */
+/** ======= 8 - Criando um array do 1 ao 25 usando for ======= */
+  console.log("Exercício - 8");
 
+  let newArray = [];
+  for(i=1; i<=25; i+=1){
+    newArray.push(i);
+  }
+  console.log(newArray);
 
 /** ======= 9 ======= */
