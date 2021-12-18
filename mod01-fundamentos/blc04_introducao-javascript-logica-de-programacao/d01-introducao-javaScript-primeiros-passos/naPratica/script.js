@@ -193,28 +193,30 @@
 
 /** ======= Calcular valor liquido, usando custo/venda, incidido em 20% ======= */
 
-  const valorCusto = -7;
-  const valorVenda = 37;
-  let produtosVendidos = 1000;
+  // const valorCusto = -7;
+  // const valorVenda = 37;
+  // let produtosVendidos = 1000;
 
-  let valCustVendJuntos= [valorCusto, valorVenda];
-  let mensagemErro = "Valor abaixo de 0.";
-  let resultFinal;
+  // let valCustVendJuntos= [valorCusto, valorVenda];
+  // let mensagemErro = "Valor abaixo de 0.";
+  // let resultFinal;
 
-  for (let i=0; i<=valCustVendJuntos.length; i+=1){
+  // for (let i=0; i<=valCustVendJuntos.length; i+=1){
 
-    if(valorCusto>=0 && valorVenda>=0){
-      const valorIncide20Percent = ((20*valorCusto)/100);
-      const valorCustoTotal = valorCusto+valorIncide20Percent;
-      const liquidCalc = valorVenda-valorCustoTotal;
-      let liquidoEmpresa = (liquidCalc * produtosVendidos).toFixed(2);
-        resultFinal = ("R$" + " " + liquidoEmpresa);
-      }
-    else {
-      resultFinal = mensagemErro;
-    }
-      console.log(resultFinal);
-      return resultFinal
-      }
+  //   if(valorCusto>=0 && valorVenda>=0){
+  //     const valorIncide20Percent = ((20*valorCusto)/100);
+  //     const valorCustoTotal = valorCusto+valorIncide20Percent;
+  //     const liquidCalc = valorVenda-valorCustoTotal;
+  //     let liquidoEmpresa = (liquidCalc * produtosVendidos).toFixed(2);
+  //       resultFinal = ("R$" + " " + liquidoEmpresa);
+  //     }
+  //   else {
+  //     resultFinal = mensagemErro;
+  //   }
+  //     console.log(resultFinal);
+  //     return resultFinal
+  //     }
 
-      /** ======= proximo ======= */
+      /** ======= Líquido, c/ INSS e IR c/ alíquotas ======= */
+
+      
