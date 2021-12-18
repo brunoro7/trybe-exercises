@@ -84,4 +84,14 @@
   }
   console.log(newArray);
 
-/** ======= 9 ======= */
+/** ======= 9 - Usando newArray, dividi cada valor por 2 ======= */
+console.log("Exercício - 9");
+
+let newArrayRecebePor2 = [];
+
+for(let dividindo = 0; dividindo < newArray.length; dividindo+=1){
+    let divididoPor2 = newArray[dividindo]/2;
+    newArrayRecebePor2.push(divididoPor2);
+  }
+  
+  console.log(newArrayRecebePor2);
