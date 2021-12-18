@@ -1,0 +1,1 @@
+> ### Aqui estão os exercícios de fixação de arrays.
