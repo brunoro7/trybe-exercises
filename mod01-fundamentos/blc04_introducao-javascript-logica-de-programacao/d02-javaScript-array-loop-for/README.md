@@ -1,0 +1,1 @@
+> ### Aqui está os exercícios sobre arrays.
