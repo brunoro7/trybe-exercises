@@ -1,0 +1,1 @@
+> ### Aqui está o exercício de fixação do laço for.
