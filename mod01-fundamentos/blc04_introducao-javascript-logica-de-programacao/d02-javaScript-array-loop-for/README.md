@@ -1,1 +1,1 @@
-> ### Aqui está os exercícios sobre arrays.
+> ### Aqui estão os exercícios sobre arrays e loop For.
