@@ -29,7 +29,7 @@
   console.log(resultMedArit);
 
 /** ======= 4 - Acrescentar regra de <= a 20 ou > que 20 ======= */
-console.log("Exercício - 4");
+  console.log("Exercício - 4");
 
   if(resultMedArit > 20){
     console.log("valor maior que 20");
@@ -38,7 +38,16 @@ console.log("Exercício - 4");
     console.log("valor menor ou igual 20");
   }
 
-/** ======= 5 ======= */
+/** ======= 5 - Descobrir o maior do array ======= */
+  console.log("Exercício - 5");
+
+  let valorMaior = 0;
+  for (i=0; i < numbers.length; i+=1){
+    if(numbers[i]>valorMaior){
+      valorMaior = numbers[i];
+    }
+  }
+  console.log(valorMaior);
 
 /** ======= 6 ======= */
 
