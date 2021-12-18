@@ -263,4 +263,4 @@
   let resultadoLiquido = salarioLiquido.toFixed(2);
   
   console.log("Resultado Exercicio 11 - R$ " + resultadoLiquido);
-  console.log("Exercícios finalizados!");
+  console.log("Exercícios finalizados!!!");
