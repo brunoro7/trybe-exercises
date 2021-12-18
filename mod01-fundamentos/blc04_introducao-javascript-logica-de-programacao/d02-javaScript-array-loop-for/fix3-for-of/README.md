@@ -1,0 +1,1 @@
+> ### Aqui está o exercício sobre for/of.
