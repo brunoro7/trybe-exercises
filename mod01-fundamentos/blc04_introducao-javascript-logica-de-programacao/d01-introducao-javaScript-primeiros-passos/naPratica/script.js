@@ -193,28 +193,65 @@
 
 /** ======= Calcular valor liquido, usando custo/venda, incidido em 20% ======= */
 
-  const valorCusto = -7;
-  const valorVenda = 37;
-  let produtosVendidos = 1000;
+  // const valorCusto = -7;
+  // const valorVenda = 37;
+  // let produtosVendidos = 1000;
 
-  let valCustVendJuntos= [valorCusto, valorVenda];
-  let mensagemErro = "Valor abaixo de 0.";
-  let resultFinal;
+  // let valCustVendJuntos= [valorCusto, valorVenda];
+  // let mensagemErro = "Valor abaixo de 0.";
+  // let resultFinal;
 
-  for (let i=0; i<=valCustVendJuntos.length; i+=1){
+  // for (let i=0; i<=valCustVendJuntos.length; i+=1){
 
-    if(valorCusto>=0 && valorVenda>=0){
-      const valorIncide20Percent = ((20*valorCusto)/100);
-      const valorCustoTotal = valorCusto+valorIncide20Percent;
-      const liquidCalc = valorVenda-valorCustoTotal;
-      let liquidoEmpresa = (liquidCalc * produtosVendidos).toFixed(2);
-        resultFinal = ("R$" + " " + liquidoEmpresa);
-      }
-    else {
-      resultFinal = mensagemErro;
-    }
-      console.log(resultFinal);
-      return resultFinal
-      }
+  //   if(valorCusto>=0 && valorVenda>=0){
+  //     const valorIncide20Percent = ((20*valorCusto)/100);
+  //     const valorCustoTotal = valorCusto+valorIncide20Percent;
+  //     const liquidCalc = valorVenda-valorCustoTotal;
+  //     let liquidoEmpresa = (liquidCalc * produtosVendidos).toFixed(2);
+  //       resultFinal = ("R$" + " " + liquidoEmpresa);
+  //     }
+  //   else {
+  //     resultFinal = mensagemErro;
+  //   }
+  //     console.log(resultFinal);
+  //     return resultFinal
+  //     }
 
-      /** ======= proximo ======= */
+/** ======= Líquido, c/ INSS e IR c/ alíquotas ======= */
+
+//por enquanto usando de exemplo os 3000;
+let salarioBruto = 3000;
+
+//INSS Base
+let ali8 = (salarioBruto*8)/100;
+let ali9 = (salarioBruto*9)/100;
+let ali11 = (salarioBruto*11)/100;
+let aliMax = 570.88;
+
+let salarioBase = 0;
+
+if(salarioBruto <= 1556.94){
+  salarioBase = salarioBruto - ali8;
+}
+else if(salarioBruto >= 1556.95 && salarioBruto <= 2594.92){
+  salarioBase = salarioBruto - ali9;
+}
+else if(salarioBruto >= 2594.93 && salarioBruto <= 5189.82){
+  salarioBase = salarioBruto - ali11;
+}
+else if(salarioBruto > 5189.82){
+  salarioBase = salarioBruto - aliMax;
+}
+console.log(salarioBase);
+
+// //IR
+// isent = 0;
+// aliIR7meio = ((salarioINSS*7.5)/100)- 142.80;
+// aliIR15 = ((salarioINSS*15)/100) - 354.80;
+// aliIR22meio = ((salarioINSS*22.5)/100) - 636.13;
+// aliIR27meio = ((salarioINSS*27.5)/100) - 869.36;
+
+// //por enquanto usando de exemplo o 7.5;
+// resultadoFinal = (salarioBase - aliIR7meio);
+
+// salarioLiquido = resultadoFinal;
