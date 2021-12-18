@@ -50,6 +50,16 @@
   console.log(valorMaior);
 
 /** ======= 6 ======= */
+  console.log("Exercício - 6");
+
+  let valoresImpares = [];
+  for (i=0; i < numbers.length; i+=1){
+      
+    if(numbers[i]%2===1){
+      valoresImpares.push(numbers[i]);
+    }
+  }
+  console.log(valoresImpares);
 
 /** ======= 7 ======= */
 
