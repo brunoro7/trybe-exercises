@@ -194,24 +194,23 @@
 /** ======= Calcular valor liquido, usando custo/venda, incidido em 20% ======= */
 
   const valorCusto = 10;
-  const valorVenda = 20;
-  const valorIncide20Percent = ((20*valorCusto)/100);
-  const valorCustoTotal = valorCusto+valorIncide20Percent;
-  const liquidCalc = valorVenda-valorCustoTotal;
-  let produtosVendidos = 1000;
-  let liquidoEmpresa = liquidCalc * produtosVendidos;
-  let resultEmpresa = liquidoEmpresa.toFixed(2);
+  const valorVenda = (-20);
   let mensagemErro = "Valor abaixo de 0.";
   
-  //Falta conseguir definir esse if como regra.
   if(valorCusto<0 || valorVenda<0){
     resultFinal = mensagemErro;
   }
   else {
     resultFinal = resultEmpresa;
   }
+  const valorIncide20Percent = ((20*valorCusto)/100);
+  const valorCustoTotal = valorCusto+valorIncide20Percent;
+  const liquidCalc = valorVenda-valorCustoTotal;
+  let produtosVendidos = 1000;
+  let liquidoEmpresa = liquidCalc * produtosVendidos;
+  let resultEmpresa = liquidoEmpresa.toFixed(2);
+  
   console.log(resultEmpresa);
-
 /** ======= proximo ======= */
 
 /** ======= proximo ======= */
