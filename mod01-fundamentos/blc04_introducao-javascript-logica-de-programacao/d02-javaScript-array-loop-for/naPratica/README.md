@@ -1,0 +1,1 @@
+> ### Aqui está esta contigo o exercício prático do conteúdo do dia 2 do bloco 4.
