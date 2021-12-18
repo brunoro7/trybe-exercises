@@ -49,7 +49,7 @@
   }
   console.log(valorMaior);
 
-/** ======= 6 ======= */
+/** ======= 6 - Pegando todos os números ímpares ======= */
   console.log("Exercício - 6");
 
   let valoresImpares = [];
@@ -61,8 +61,21 @@
   }
   console.log(valoresImpares);
 
-/** ======= 7 ======= */
+/** ======= 7 - Pegar o menor valor do array ======= */
+  console.log("Exercício - 7");
+
+  let valorMenor = valorMaior;
+  for (i=0; i < numbers.length; i+=1){
+    
+    if(numbers[i] < valorMenor){
+      valorMenor = numbers[i];
+    }
+  }
+  console.log(valorMenor);
+
+/** ======= Estes próximos 2 são separados dos acima ======= */
 
 /** ======= 8 ======= */
+
 
 /** ======= 9 ======= */
