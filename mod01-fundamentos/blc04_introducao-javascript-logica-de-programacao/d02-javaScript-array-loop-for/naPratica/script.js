@@ -28,14 +28,70 @@
   
   console.log(resultMedArit);
 
-/** ======= 4 ======= */
+/** ======= 4 - Acrescentar regra de <= a 20 ou > que 20 ======= */
+  console.log("Exercício - 4");
 
-/** ======= 5 ======= */
+  if(resultMedArit > 20){
+    console.log("valor maior que 20");
+  }
+  else if(resultMedArit <= 20){
+    console.log("valor menor ou igual 20");
+  }
 
-/** ======= 6 ======= */
+/** ======= 5 - Descobrir o maior do array ======= */
+  console.log("Exercício - 5");
 
-/** ======= 7 ======= */
+  let valorMaior = 0;
+  for (i=0; i < numbers.length; i+=1){
+    if(numbers[i]>valorMaior){
+      valorMaior = numbers[i];
+    }
+  }
+  console.log(valorMaior);
 
-/** ======= 8 ======= */
+/** ======= 6 - Pegando todos os números ímpares ======= */
+  console.log("Exercício - 6");
 
-/** ======= 9 ======= */
+  let valoresImpares = [];
+  for (i=0; i < numbers.length; i+=1){
+      
+    if(numbers[i]%2===1){
+      valoresImpares.push(numbers[i]);
+    }
+  }
+  console.log(valoresImpares);
+
+/** ======= 7 - Pegar o menor valor do array ======= */
+  console.log("Exercício - 7");
+
+  let valorMenor = valorMaior;
+  for (i=0; i < numbers.length; i+=1){
+    
+    if(numbers[i] < valorMenor){
+      valorMenor = numbers[i];
+    }
+  }
+  console.log(valorMenor);
+
+/** ======= Estes próximos 2 são separados dos acima ======= */
+
+/** ======= 8 - Criando um array do 1 ao 25 usando for ======= */
+  console.log("Exercício - 8");
+
+  let newArray = [];
+  for(i=1; i<=25; i+=1){
+    newArray.push(i);
+  }
+  console.log(newArray);
+
+/** ======= 9 - Usando newArray, dividi cada valor por 2 ======= */
+console.log("Exercício - 9");
+
+let newArrayRecebePor2 = [];
+
+for(let dividindo = 0; dividindo < newArray.length; dividindo+=1){
+    let divididoPor2 = newArray[dividindo]/2;
+    newArrayRecebePor2.push(divididoPor2);
+  }
+  
+  console.log(newArrayRecebePor2);
