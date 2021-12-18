@@ -195,20 +195,27 @@
 
   const valorCusto = 10;
   const valorVenda = (-20);
+  
   let mensagemErro = "Valor abaixo de 0.";
   
-  if(valorCusto<0 || valorVenda<0){
-    resultFinal = mensagemErro;
-  }
-  else {
-    resultFinal = resultEmpresa;
-  }
   const valorIncide20Percent = ((20*valorCusto)/100);
   const valorCustoTotal = valorCusto+valorIncide20Percent;
   const liquidCalc = valorVenda-valorCustoTotal;
   let produtosVendidos = 1000;
   let liquidoEmpresa = liquidCalc * produtosVendidos;
   let resultEmpresa = liquidoEmpresa.toFixed(2);
+  let resultFinal;
+  
+  let valCustVendJuntos= [valorCusto, valorVenda];
+  for (let i=0; i<valCustVendJuntos.length; i+=1){
+  if(valorCusto<0 || valorVenda<0){
+    resultFinal = mensagemErro;
+  }
+  else {
+    resultFinal = resultEmpresa;
+  }
+  return resultFinal
+  }
   
   console.log(resultEmpresa);
 /** ======= proximo ======= */
