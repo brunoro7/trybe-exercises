@@ -1,0 +1,1 @@
+> ### Este é o exercício de fixação com foco em css, tem que estruturar a base "cedida" de acordo com o "layout" proposto.
