@@ -1,1 +1,1 @@
-> ### Aqui está o exercicio referente a lógica no dia 03.
+> ### Aqui está o exercicio referente a lógica, no dia 03 do bloco 04.
