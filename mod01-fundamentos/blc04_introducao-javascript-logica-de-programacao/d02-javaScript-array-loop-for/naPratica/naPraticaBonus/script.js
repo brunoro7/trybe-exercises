@@ -27,8 +27,18 @@
 console.log(numbers);
 
 /** ======= 2 - Ordenar em ordem decrescente ======= */
-  //console.log("Exercício Bônus 2");
+  console.log("Exercício Bônus 2");
 
+  for (let index = 1; index < numbers.length; index += 1) {
+    for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+      if (numbers[index] > numbers[secondIndex]) {
+        let position = numbers[index];
+          numbers[index] = numbers[secondIndex];
+          numbers[secondIndex] = position;
+      }
+    }
+  }
+console.log(numbers)
 /** ======= 3 - Usando for (o código da linha 3 a 11) multipilicar cada valor na posição pelo valor da  próxima posição do array ======= */
   //console.log("Exercício Bônus 3");
 
