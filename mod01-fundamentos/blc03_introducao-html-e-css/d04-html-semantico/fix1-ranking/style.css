@@ -8,6 +8,7 @@ h1 {
   height: 50px;
   text-align: center;
   width: 200px;
+  display: block;
 }
 
 .second {
@@ -24,4 +25,19 @@ h1 {
   height: 50px;
   text-align: center;
   width: 300px;
+}
+
+.rank {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+}
+
+h3, h2 {
+  text-align: center;
 }
