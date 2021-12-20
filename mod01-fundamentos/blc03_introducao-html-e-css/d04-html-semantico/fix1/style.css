@@ -6,32 +6,38 @@ h1 {
   background-color: rgb(235, 200, 84);
   font-size: 20px;
   height: 50px;
+  text-align: center;
   width: 200px;
+  display: block;
 }
 
 .second {
   background-color: rgb(219, 219, 219);
   font-size: 20px;
   height: 50px;
+  text-align: center;
   width: 300px;
-  align-items: center;
-  display: inline-block;
 }
 
 .third {
   background-color: rgb(170, 142, 106);
   font-size: 20px;
   height: 50px;
+  text-align: center;
   width: 300px;
-  display: inline-block; 
 }
 
-h3 {
+.rank {
   text-align: center;
 }
 
 li {
   list-style: none;
-  text-align: justify;
+  text-align: center;
+  display: inline-block;
   margin: auto;
+}
+
+h3, h2 {
+  text-align: center;
 }
