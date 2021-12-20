@@ -61,4 +61,6 @@ console.log(numbers1);
 
 // Ao usar o i(indice) como [i + 1] no if, você indica uma posição a mais no array, serve para que ele indique que além das 10 posições a partir de 0 a 9, ele deve calcular  + 1 valor. nesse caso, o ultimo do array.
 
-/** ======= Tb testar de quiser "multiplicar pelo anterior" ======= */
+/** ======= Tb testar se quiser "multiplicar pelo anterior" ======= */
+
+/** ======= Tb testar se quiser "decrementando" ======= */
