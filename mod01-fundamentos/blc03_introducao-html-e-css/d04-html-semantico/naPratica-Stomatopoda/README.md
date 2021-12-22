@@ -1,0 +1,1 @@
+> ### Aqui está o exercício referente ao dia 04 do bloco 03, foi solocitado a criação de uma página que apresenta o **"Stomatopoda"**, e atendendo os "requisitos", usando os conhecimentos adquiridos até o momento sobre semântica.
