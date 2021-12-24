@@ -38,9 +38,10 @@ let caixaRodape = document.getElementById("footer-container");
   caixaRodape.style.backgroundColor = "darkgreen";
 
 /** ======= Acrescenta uma frase após #footer-conteiner ======= */
+//criando e apendando um elemento com texto e cor.
+
 let fraseFinal = "Administrador de tempo finalizado";
 let criaElementoFinal = document.createElement("p");
 criaElementoFinal.innerText = fraseFinal;
 criaElementoFinal.style.color = "darkgreen";
 document.body.appendChild(criaElementoFinal);
-

@@ -1,1 +1,1 @@
-> ### Usando o mesmo "template" do exercício anterior, devo realizar outras atividades.
+> ### Aqui está o exercício naPratica, é referente ao getElementBy e querySelector, foi usado um template fornecido, e deve se atender os requisitos.
