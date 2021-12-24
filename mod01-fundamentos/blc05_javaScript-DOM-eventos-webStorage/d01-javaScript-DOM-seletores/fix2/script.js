@@ -11,6 +11,13 @@ let caixaUrgente = document.querySelectorAll(".emergency-tasks div");
       urgente.style.backgroundColor = "salmon";
   }
 
+/** ======= Altera background do .emergency-tasks h3 ======= */ 
+
+let fundoSubTituloUrg = document.querySelectorAll(".emergency-tasks h3");
+  for(let subTituloUrg of fundoSubTituloUrg){
+    subTituloUrg.style.backgroundColor = "darkblue";
+  }
+
 /** ======= Altera background do .no-emergency-tasks ======= */
 
 let caixaNaoUrgente = document.querySelectorAll(".no-emergency-tasks div");
