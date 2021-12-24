@@ -15,7 +15,7 @@ let caixaUrgente = document.querySelectorAll(".emergency-tasks div");
 
 let fundoSubTituloUrg = document.querySelectorAll(".emergency-tasks h3");
   for(let subTituloUrg of fundoSubTituloUrg){
-    subTituloUrg.style.backgroundColor = "darkblue";
+    subTituloUrg.style.backgroundColor = "darkviolet";
   }
 
 /** ======= Altera background do .no-emergency-tasks ======= */
@@ -36,3 +36,11 @@ let fundoSubTituloNoUrg = document.querySelectorAll(".no-emergency-tasks h3");
 
 let caixaRodape = document.getElementById("footer-container");
   caixaRodape.style.backgroundColor = "darkgreen";
+
+/** ======= Acrescenta uma frase após #footer-conteiner ======= */
+let fraseFinal = "Administrador de tempo finalizado";
+let criaElementoFinal = document.createElement("p");
+criaElementoFinal.innerText = fraseFinal;
+criaElementoFinal.style.color = "darkgreen";
+document.body.appendChild(criaElementoFinal);
+
