@@ -25,6 +25,13 @@ let caixaNaoUrgente = document.querySelectorAll(".no-emergency-tasks div");
       naoUrgente.style.backgroundColor = "gold";
   }
 
+/** ======= Altera background do .no-emergency-tasks h3 ======= */ 
+
+let fundoSubTituloNoUrg = document.querySelectorAll(".no-emergency-tasks h3");
+  for(let subTituloNoUrg of fundoSubTituloNoUrg){
+    subTituloNoUrg.style.backgroundColor = "black";
+  }
+
 /** ======= Altera background do #footer-conteiner ======= */
 
 let caixaRodape = document.getElementById("footer-container");
