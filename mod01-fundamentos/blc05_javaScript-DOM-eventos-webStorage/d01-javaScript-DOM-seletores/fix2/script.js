@@ -1,13 +1,12 @@
 /** ======= 1- Criar as let, com os getEletments ou query ======= */
 let caixaTitulo = document.getElementById("header-container");
   caixaTitulo.style.backgroundColor = "green";
+ 
+  let caixaUrgente = document.querySelectorAll(".emergency-tasks div");
+  for(let urgente of caixaUrgente){
+      urgente.style.backgroundColor = "salmon";
+  }
 
-// #container 
-    
-//   #header-container
-  
-//   .emergency-tasks 
-  
 //   .emergency-tasks div 
 //   .emergency-tasks h3 
   
