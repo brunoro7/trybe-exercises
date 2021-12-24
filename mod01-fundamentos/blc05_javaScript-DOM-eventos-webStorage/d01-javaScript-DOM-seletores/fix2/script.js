@@ -1,27 +1,19 @@
-/** ======= 1- Criar as let, com os getEletments ou query ======= */
+/** ======= Altera background do header ======= */
 let caixaTitulo = document.getElementById("header-container");
   caixaTitulo.style.backgroundColor = "green";
- 
+
+
+/** ======= Altera background do .emergency-tasks ======= */ 
   let caixaUrgente = document.querySelectorAll(".emergency-tasks div");
   for(let urgente of caixaUrgente){
       urgente.style.backgroundColor = "salmon";
   }
 
-//   .emergency-tasks div 
-//   .emergency-tasks h3 
-  
-  
-//   .no-emergency-tasks 
-  
-//   .no-emergency-tasks div
-//   .no-emergency-tasks h3 
+/** ======= Altera background do .no-emergency-tasks ======= */
+  let caixaNaoUrgente = document.querySelectorAll(".no-emergency-tasks div");
+  for(let naoUrgente of caixaNaoUrgente){
+      naoUrgente.style.backgroundColor = "yellow";
+  }
+
   
 // #footer-container
-
-
-
-
-
-
-
-/** ======= 2- Acrescentar o mnínimo solicitado ======= */
