@@ -65,11 +65,16 @@
 
 /** ======= Requisito - 5 ======= */
 
-  let upperP = firstP.innerText.toUpperCase();
-  let alterFirstP = document.getElementsByTagName("p")[0];
+    let upperP = firstP.innerText.toUpperCase();
+    let alterFirstP = document.getElementsByTagName("p")[0];
       alterFirstP.innerText = upperP;
 
 /** ======= Requisito - 6 ======= */
+
+      let allP = document.getElementsByTagName("p");
+      for (let iAllP of allP){
+        console.log(iAllP);
+      }
 
     </script>
   </body>
