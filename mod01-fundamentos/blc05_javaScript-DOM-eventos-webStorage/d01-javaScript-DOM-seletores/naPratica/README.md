@@ -1,0 +1,1 @@
+> ### Aqui está contido o exercício naPratica, relativo ao dia 01 do bloco 05, onde usamos nosso conhecimento até o momento para executar, funcções de manipulação de DOM.
