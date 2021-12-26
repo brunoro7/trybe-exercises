@@ -1,1 +1,0 @@
-> ### Aqui está o exercício naPratica, é referente ao getElementBy e querySelector, foi usado um template fornecido, e deve se atender os requisitos.
