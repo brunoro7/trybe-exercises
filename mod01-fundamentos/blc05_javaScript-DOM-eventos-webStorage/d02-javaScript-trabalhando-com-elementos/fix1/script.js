@@ -27,3 +27,6 @@ console.log(primeiroFilhoDoFilho);
 
 let primeiroFilhoDoPai = document.getElementById("pai").firstElementChild;
 console.log(primeiroFilhoDoPai);
+
+let primeiroFilhoDeOndeVcEsta = document.getElementById("elementoOndeVoceEsta").previousElementSibling;
+console.log(primeiroFilhoDeOndeVcEsta);
