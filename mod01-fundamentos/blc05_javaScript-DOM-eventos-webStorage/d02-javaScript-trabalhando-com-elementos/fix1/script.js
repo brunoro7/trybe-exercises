@@ -30,3 +30,6 @@ console.log(primeiroFilhoDoPai);
 
 let primeiroFilhoDeOndeVcEsta = document.getElementById("elementoOndeVoceEsta").previousElementSibling;
 console.log(primeiroFilhoDeOndeVcEsta);
+
+let textoPartindoOndeVcEsta = document.getElementById("elementoOndeVoceEsta").nextSibling;
+console.log(textoPartindoOndeVcEsta);
