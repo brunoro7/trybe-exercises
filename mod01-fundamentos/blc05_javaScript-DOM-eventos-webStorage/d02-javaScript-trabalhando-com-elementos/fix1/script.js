@@ -36,3 +36,6 @@ console.log(textoPartindoOndeVcEsta);
 
 let terceiroFilhoPartindoOndeVcEsta = document.getElementById("elementoOndeVoceEsta").nextElementSibling;
 console.log(terceiroFilhoPartindoOndeVcEsta);
+
+let terceiroFilhoDoPai = document.getElementById("pai").lastElementChild.previousElementSibling;
+console.log(terceiroFilhoDoPai);
