@@ -1,0 +1,1 @@
+> ### Aqui está o exercício de fixação sobre a busca de elementos, está relacionado ao parentNode, ParentSibling e etc.
