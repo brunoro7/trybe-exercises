@@ -33,3 +33,6 @@ console.log(primeiroFilhoDeOndeVcEsta);
 
 let textoPartindoOndeVcEsta = document.getElementById("elementoOndeVoceEsta").nextSibling;
 console.log(textoPartindoOndeVcEsta);
+
+let terceiroFilhoPartindoOndeVcEsta = document.getElementById("elementoOndeVoceEsta").nextElementSibling;
+console.log(terceiroFilhoPartindoOndeVcEsta);
