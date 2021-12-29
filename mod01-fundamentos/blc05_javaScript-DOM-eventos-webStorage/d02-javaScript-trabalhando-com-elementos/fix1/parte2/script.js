@@ -13,3 +13,10 @@ const elementoPai = document.getElementById("pai");
 const irmaoOndeEstou = document.createElement("section");
   irmaoOndeEstou.className = "irmaoDeOndeEuEstou";
   elementoPai.appendChild(irmaoOndeEstou);
+
+/** ======= criar um filho para o elementoOndeVoceEsta */
+
+const elementoOndeEstou = document.getElementById("elementoOndeVoceEsta");
+const filhoDeOndeEstou = document.createElement("section");
+  filhoDeOndeEstou.className = "filhoDeOndeEuEstou";
+  elementoOndeEstou.appendChild(filhoDeOndeEstou);
