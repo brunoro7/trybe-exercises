@@ -28,3 +28,8 @@ const filhoDoPrimeiroFilho = document.createElement("section");
   filhoDoPrimeiroFilho.className = "filhoDoPrimeiroFilho";
   primeiroFilhoDoFilho.appendChild(filhoDoPrimeiroFilho);
 
+/** ======= criar um filho para o primeiroFilhoDoFilho ======= */
+
+const acessaTerceiroFilho = filhoDoPrimeiroFilho.parentElement.parentElement.nextElementSibling;
+
+console.log(acessaTerceiroFilho);
