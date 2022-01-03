@@ -1,0 +1,1 @@
+> ### Aqui está o exercício de fixação relativo ao dia 01 do bloco 06, sobre inputs, types e atributos.
