@@ -14,26 +14,30 @@
       Tela de Login
     </h1>
 
-    <form action="" method="GET" enctype="multipart/form-data">
+    <main id="boxLogin">
 
-      <p>
-        Email
-      </p>
-      <input type="email" name="email" required autocomplete="off" autofocus="on" placeholder="Digite seu email" id="eml-login" class="">
-      </br>
+      <form action="" method="GET" enctype="multipart/form-data">
+          
+        <label for="eml-login">Email:
+          <input type="email" name="email" required autocomplete="off" autofocus="on" placeholder="Digite seu email" id="eml-login" class="">
+        </label>
+        
+        <br>
+        <label for="pswdLogin">Senha:
+          <input type="password" name="senha" required placeholder="Digite sua senha" id="pswdLogin" class="">
+        </label>
+
+        <br>
+        <label for="checkLembre"> 
+          <input type="checkbox" value="save" name="lembreMe" id="checkLembre" class=""> Lembrar-me
+        </label>
+        
+        <br>
+        <button type="submit" name="entrar" id="btnEntrar" class="">Entrar</button>
       
-      <p>
-        Senha
-      </p>
-      <input type="password" name="senha" required placeholder="Digite sua senha" id="pswdLogin" class="">
-      </br>
+      </form>
 
-      <input type="checkbox" name="lembreMe" id="checkLembre" class="">
-      </br>
-      
-      <button type="submit" name="entrar" id="btnEntrar" class="">Entrar</button>
-
-  </form>
+    </main>  
 
   </body>
 
