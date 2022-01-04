@@ -10,3 +10,9 @@ const HREF_LINK = document.querySelector("#href");
     event.preventDefault();
   }
   HREF_LINK.addEventListener("click", blockHref);
+/** ======= Função que "bloqueia" o padrão de de marcação do CheckBox ======= */
+
+function blockCheckBox (event) {
+  event.preventDefault();
+}
+INPUT_CHECKBOX.addEventListener("click", blockCheckBox);
