@@ -16,3 +16,13 @@ function blockCheckBox (event) {
   event.preventDefault();
 }
 INPUT_CHECKBOX.addEventListener("click", blockCheckBox);
+
+/** ======= Função que "bloqueia" o padrão de abrir o link automáticamente ======= */
+
+function keyPress_a (event) {
+  let press_a = event.key;
+  if(press_a != "a"){
+  event.preventDefault();
+  }
+}
+INPUT_TEXT.addEventListener("keypress", keyPress_a);
