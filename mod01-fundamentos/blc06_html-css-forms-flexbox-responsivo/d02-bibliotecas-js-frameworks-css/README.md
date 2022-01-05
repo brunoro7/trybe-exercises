@@ -1,0 +1,1 @@
+> ### Aqui está o exercício naPratica do d02 do bloco 6, é relacionado a implementação de biblioteca, usando o layout de form criado na aula do d01.
