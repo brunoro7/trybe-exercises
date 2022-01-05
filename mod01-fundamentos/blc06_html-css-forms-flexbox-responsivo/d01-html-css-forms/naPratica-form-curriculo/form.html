@@ -17,20 +17,60 @@
 
     <main>
 
-      <form action="" method="get"></form>
+      <form action="" method="get" enctype="multipart/form-data">
 
         <fieldset id="dadoPessoal">
 
-          <input type="text" id="nomeComp">
-          <input type="email" id="emailPessoal">
-          <input type="text" id="cpf">
-          <input type="text" id="enderecoPessoal">
-          <input type="text" id="cidade">
+          <div>
+            <label for="nomeComp">Nome Completo:
+              <input type="text" name="" placeholder="Digite seu nome completo" id="nomeComp" required>
+            </label>
+          </div>
 
-          <button type="select" id="estado">
-          <button type="radio" id="tipoRes">
+          <div>
+            <label for="emailPessoal">E-mail:
+              <input type="email" name="" placeholder="Digite o seu email" id="emailPessoal" required>
+            </label>
+          </div>
+          
+          <div>
+            <label for="cpf">C.P.F.:
+              <input type="text" name="" placeholder="Digite o seu C.P.F."  id="cpf" required>
+            </label>
+          </div>
+
+          <div>
+            <label for="enderecoPessoal">Endereço:
+              <input type="text" name="" placeholder="Digite o seu endereço" id="enderecoPessoal" required>
+            </label>
+          </div>
+          
+          <div id="tiposRes">
+
+            <input type="radio" name="tipoRes" id="tipoCasa">
+            <label for="tipoCasa">Casa</label>
+
+            <input type="radio" name="tipoRes" id="tipoApto">
+            <label for="tipoApto">Apartamento</label>
         
+          </div>
+
+          <div>
+            <label for="estadoSelect">Escolha o estado:</label>
+            <select name="estadoSelect" id="estadoSelect">
+              
+          </div>
+
+          <div>
+            <label for="cidade">Cidade:
+              <input type="text" name="" placeholder="Digite a sua cidade" id="cidade" required>
+            </label>
+          </div>
+
+          
         </fieldset>
+
+      </form>
 
     </main>
 
