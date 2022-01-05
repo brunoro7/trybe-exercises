@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Curriculo - NaPratica - D01 - Blc 06</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    
+    <header>
+      <h1>Curriculo</h1>
+    </header>
+
+    <main>
+
+      <form action="" method="get" enctype="multipart/form-data">
+
+        <fieldset id="dadoPessoal">
+
+          <div>
+            <label for="nomeComp">Nome Completo:
+              <input type="text" name="" placeholder="Digite seu nome completo" id="nomeComp" required>
+            </label>
+          </div>
+
+          <div>
+            <label for="emailPessoal">E-mail:
+              <input type="email" name="" placeholder="Digite o seu email" id="emailPessoal" required>
+            </label>
+          </div>
+          
+          <div>
+            <label for="cpf">C.P.F.:
+              <input type="text" name="" placeholder="Digite o seu C.P.F."  id="cpf" required>
+            </label>
+          </div>
+
+          <div>
+            <label for="enderecoPessoal">Endereço:
+              <input type="text" name="" placeholder="Digite o seu endereço" id="enderecoPessoal" required>
+            </label>
+          </div>
+          
+          <div id="tiposRes">
+            <input type="radio" name="tipoRes" id="tipoCasa">
+              <label for="tipoCasa">Casa</label>
+            <input type="radio" name="tipoRes" id="tipoApto">
+              <label for="tipoApto">Apartamento</label>
+          </div>
+
+          <div>
+            <label for="estadoSelect">Escolha o estado:
+              <select name="estadoSelect" id="estadoSelect">
+                <option value="saoPaulo">São Paulo</option>
+              <!-- etc <option value="saoPaulo">São Paulo</option> -->
+            </label>
+          </div>
+
+          <div>
+            <label for="cidade">Cidade:
+              <input type="text" name="" placeholder="Digite a sua cidade" id="cidade" required>
+            </label>
+          </div>
+
+        </fieldset>
+
+        <fieldset id="lastJob">
+          
+          <div>
+            <label for="resumeCur">Resumo do Curriculo:
+              <textarea name="resumeCur" id="resumeCur" cols="70" rows="20"></textarea>
+            </label>
+          </div>
+
+        </fieldset>
+
+      </form>
+
+    </main>
+
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
