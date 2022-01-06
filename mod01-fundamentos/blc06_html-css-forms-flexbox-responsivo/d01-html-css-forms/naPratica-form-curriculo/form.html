@@ -25,25 +25,25 @@
 
           <div>
             <label for="nomeComp">Nome Completo:
-              <input type="text" name="" maxlength="40" placeholder="Digite seu nome completo" id="nomeComp" required>
+              <input type="text" name="" maxlength="40" placeholder="Digite seu nome completo" id="nomeComp" autocomplete="disable" required>
             </label>
           </div>
 
           <div>
             <label for="emailPessoal">E-mail:
-              <input type="email" name="" maxlength="50" placeholder="Digite o seu email" id="emailPessoal" required>
+              <input type="email" name="" maxlength="50" placeholder="Digite o seu email" id="emailPessoal" autocomplete="disable" required>
             </label>
           </div>
           
           <div>
             <label for="cpf">C.P.F.:
-              <input type="text" name="" maxlength="11" placeholder="Digite o seu C.P.F."  id="cpf" required>
+              <input type="text" name="" maxlength="11" placeholder="Digite o seu C.P.F."  id="cpf" autocomplete="disable" required>
             </label>
           </div>
 
           <div>
             <label for="enderecoPessoal">Endereço:
-              <input type="text" name="" maxlength="200" placeholder="Digite o seu endereço" id="enderecoPessoal" required>
+              <input type="text" name="" maxlength="200" placeholder="Digite o seu endereço" id="enderecoPessoal" autocomplete="disable" required>
             </label>
           </div>
           
@@ -62,7 +62,7 @@
 
           <div>
             <label for="cidade">Cidade:
-              <input type="text" name="" maxlength="28" placeholder="Digite a sua cidade" id="cidade" required>
+              <input type="text" name="" maxlength="28" placeholder="Digite a sua cidade" id="cidade" autocomplete="disable" required>
             </label>
           </div>
 
@@ -99,12 +99,13 @@
 
         </fieldset>
 
-      </form>
-
-      <div id="btn-dados">
+        <br>
+        <div id="btn-dados">
           <button type="submit" name="enviar" id="btn-submit">Enviar</button>
-          <button id="btn-clear">Limpar</button>
-      </div>
+          <button type="reset" name="limpar" id="btn-clear">Limpar</button>
+        </div>
+        
+      </form>
 
     </main>
 
