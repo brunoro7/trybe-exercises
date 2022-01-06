@@ -16,38 +16,40 @@ const siglasEstados = ["AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA
 
 /** ======= Definição da data de forma "correta" ======= */
 
-let numDia = 20;
-let diaOK = 0;
-if(numDia > 0 && numDia <= 31){
-  dia = numDia;
-}
-else{
-  alert("O número do dia deve ser de 1 à 31.");
-}
+// let numDia = 20;
+// let diaOK = 0;
+// if(numDia > 0 && numDia <= 31){
+//   dia = numDia;
+// }
+// else{
+//   alert("O número do dia deve ser de 1 à 31.");
+// }
 
-let numMes = 12;
-let mesOK = 0;
-if(numMes > 0 && numMes <= 12){
-  mes = numMes;
-}
-else {
-  alert("O número do mes deve ser de 1 à 12.");
-}
+// let numMes = 12;
+// let mesOK = 0;
+// if(numMes > 0 && numMes <= 12){
+//   mes = numMes;
+// }
+// else {
+//   alert("O número do mes deve ser de 1 à 12.");
+// }
 
-let numAno = 1987;
-let anoOK = 0;
-if(numAno > 0){
-  ano = numAno;
-}
-else {
-  alert("O número do ano deve ser maior que 0.");
-}
-let dataComp = numDia + "/" + numMes + "/" + numAno;
+// let numAno = 1987;
+// let anoOK = 0;
+// if(numAno > 0){
+//   ano = numAno;
+// }
+// else {
+//   alert("O número do ano deve ser maior que 0.");
+// }
+// let dataComp = numDia + "/" + numMes + "/" + numAno;
 
-console.log(dataComp);
+// console.log(dataComp);
 
-let recebeData = document.getElementById("dataIni");
-let numData = recebeData.innerText;
+// let recebeData = document.getElementById("dataIni");
+// let numData = recebeData.innerText;
 
 
-console.log(numData);
+// console.log(numData);
+
+// da pra tentar tb usando o pattern="([0-9]{2})-([0-9-A-Z-z-a]{2})-([0-9]{4})" no input, testar..
