@@ -1,0 +1,1 @@
+Aqui está contido o exercício fix 2, que fala sobre as propriedades, justify-contentn align-items e align-content; Obs: são 3 index pq são 3 contextos diferentes.
