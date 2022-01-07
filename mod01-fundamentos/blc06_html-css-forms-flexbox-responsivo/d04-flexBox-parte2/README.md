@@ -1,0 +1,1 @@
+> ### Aqui estão contidos os exercícios e conteúdos relativos ao dia 04 do bloco 06.
