@@ -1,0 +1,1 @@
+> ### Aqui está o exercício fiz 1, que fala sobre flex-direction e flex-wrap;
