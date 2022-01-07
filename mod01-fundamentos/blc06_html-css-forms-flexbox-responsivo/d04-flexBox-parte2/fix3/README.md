@@ -1,0 +1,1 @@
+> ### Exercício relacionado ao flex {shrink, grow, basis}, normalmente, utilizados em conjunto, porém, com detalhes distintos, por isso a separação em 3 partes.
