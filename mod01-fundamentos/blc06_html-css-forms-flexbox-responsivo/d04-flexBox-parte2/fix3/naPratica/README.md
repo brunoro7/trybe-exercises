@@ -1,0 +1,1 @@
+> ### Aqui está o exercício naPratica do dia 04 do bloco 06, é basicamente a montagem de uma galeria de filmes, com base no código já fornecido e atendendo os requisitos.

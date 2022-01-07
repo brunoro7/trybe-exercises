@@ -1,0 +1,1 @@
+> ### Exercício relativo ao align-self, detalhe só um item recebe o valor, não pode repetir a propriedade dentro do mesmo 'conteiner'.

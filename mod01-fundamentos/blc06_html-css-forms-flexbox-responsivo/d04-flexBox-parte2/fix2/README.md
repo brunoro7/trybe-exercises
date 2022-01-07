@@ -1,0 +1,1 @@
+> ### Exercício relativo a propriedade 'order', que serve literalmente para ordenar os itens, e ele funciona em ordem crescente, **sempre crescente**, caso seja necessário pode ser usado números negativos! 
