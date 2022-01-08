@@ -13,11 +13,14 @@
         min-height: 60px;
         margin: 10px 5px;
         text-align: center;
-        width: 30%;
+        width: 20%; /** porcentagem original é 30 */ 
       }
+      /** obs: se aqui eu alterar um width para px, ele responde fixo na sua largura, mas o flex de baixo continua ajustando, e tb serve p/ o hight*/
 
       .box-container {
         /* ADICIONE AQUI SEUS TESTES */
+        /** obs: aqui o padrão se torna stretch, pela porcentagem acima, referencia da obs do .box, caso altere perceberá;*/
+        align-content: space-around;
         background-color: #0fa36b;
         display: flex;
         flex-wrap: wrap;
