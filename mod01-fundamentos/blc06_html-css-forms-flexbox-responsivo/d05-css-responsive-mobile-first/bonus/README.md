@@ -1,0 +1,1 @@
+> ### Aqui está contido o exercício bônus sobre Mobile First, foi pedido que use a página do Stomatopoda, que foi criado no dia de HTML Semântico, para usarmos a abordagem do mobile first, e termos também como referência BootStrap para auxiliar, e criamos 3 layouts, smartphones, tablets e impressoras.
