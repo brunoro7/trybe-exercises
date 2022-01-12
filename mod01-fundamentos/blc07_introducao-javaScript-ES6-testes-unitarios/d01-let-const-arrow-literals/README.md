@@ -1,0 +1,1 @@
+> ### Aqui está contido os exercícios relacionados ao dia 1, do bloco 7, estão separados em 2 partes.
