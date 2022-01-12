@@ -1,0 +1,1 @@
+> ### Aqui está contido todo o conteúdo relatico ao bloco 7, em geral, são aprofundamentos no EcmaScript e primeiros passos em Jest.
