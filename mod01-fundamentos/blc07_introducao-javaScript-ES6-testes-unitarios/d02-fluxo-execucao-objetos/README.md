@@ -1,0 +1,1 @@
+> ### Aqui está contido os exercício relacionados ao dia 2 do bloco 7, são sobre Throw com Try/Catch, e aprofundamento em objetos em js.
