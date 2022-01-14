@@ -1,0 +1,1 @@
+Aqui está o conteúdo do dia 03 do bloco 7, sobre teste unitários e Jest.
