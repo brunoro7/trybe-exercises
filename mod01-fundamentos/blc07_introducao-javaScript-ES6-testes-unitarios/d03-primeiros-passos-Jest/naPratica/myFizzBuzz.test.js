@@ -25,3 +25,9 @@ describe('Requisito 4', () => {
     (myFizzBuzz(7)).toString(false);
   });
 });
+
+describe('Requisito 5', () => {
+  test('Faça uma chamada com um parâmetro que não é um número e verifique se o retorno é o esperado', () => {
+    (myFizzBuzz('')).toString(false);
+  });
+});
