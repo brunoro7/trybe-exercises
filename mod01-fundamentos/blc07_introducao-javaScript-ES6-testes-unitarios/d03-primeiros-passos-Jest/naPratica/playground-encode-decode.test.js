@@ -11,3 +11,9 @@ describe('Requisito 1 - Teste se encode e decode são funções;', () => {
   });
 });
 
+describe('Requisito 2 - Para a função encode teste se as vogais a, e, i, o, u são convertidas em 1, 2, 3, 4 e 5, respectivamente;', () => {
+  it('Teste se o retorno de "a, e, i, o, u" é "1, 2, 3, 4 e 5"', () => {
+    expect(encode('a, e, i, o, u')).toString('1, 2, 3, 4 e 5');
+  });
+});
+
