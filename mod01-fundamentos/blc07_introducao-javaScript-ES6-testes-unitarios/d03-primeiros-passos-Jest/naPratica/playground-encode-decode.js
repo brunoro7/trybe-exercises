@@ -1,4 +1,3 @@
-// Desafio 9
 function encode(frase) {
 
   let splitedFrase = frase.split("");
@@ -59,3 +58,9 @@ function decode(fraseCod) {
 
   return joinedFraseCod
 }
+
+module.exports = encode;
+module.exports = decode;
+
+
+console.log(encode("hello"))
