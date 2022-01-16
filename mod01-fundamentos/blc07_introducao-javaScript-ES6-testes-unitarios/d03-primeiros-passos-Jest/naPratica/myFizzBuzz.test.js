@@ -13,3 +13,9 @@ describe('Requisito 2', () => {
     // neste caso, a linha 5 tb aceitaria .toMatch
   });
 });
+
+describe('Requisito 3', () => {
+  test('Faça uma chamada com um número divisível por 5 e verifique se o retorno é o esperado', () => {
+    (myFizzBuzz(10)).toString('buzz');
+  });
+});
