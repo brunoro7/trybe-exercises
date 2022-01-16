@@ -10,4 +10,4 @@ function myFizzBuzz(num) {
 
 module.exports = myFizzBuzz;
 
-console.log(myFizzBuzz(4));
+console.log(myFizzBuzz());
