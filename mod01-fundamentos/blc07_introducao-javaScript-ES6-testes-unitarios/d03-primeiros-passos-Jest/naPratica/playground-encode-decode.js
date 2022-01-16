@@ -5,19 +5,19 @@ function encode(frase) {
 
   for(let i=0; i<splitedFrase.length; i++){
 
-    if(splitedFrase[i]==="a") {
+    if(splitedFrase[i]==="a" || splitedFrase[i]==="A") {
       modifiedFrase.push("1");
     }
-    else if(splitedFrase[i]==="e") {
+    else if(splitedFrase[i]==="e-E") {
       modifiedFrase.push("2");
     }
-    else if(splitedFrase[i]==="i") {
+    else if(splitedFrase[i]==="i-I") {
       modifiedFrase.push("3");
     }
-    else if(splitedFrase[i]==="o") {
+    else if(splitedFrase[i]==="o-O") {
       modifiedFrase.push("4");
     }
-    else if(splitedFrase[i]==="u") {
+    else if(splitedFrase[i]==="u-U") {
       modifiedFrase.push("5");
     }
     else{
@@ -63,4 +63,6 @@ module.exports = encode;
 module.exports = decode;
 
 
-console.log(encode("hello"))
+console.log(encode("A a E I O U"))
+
+// Escrevendo uma frase bem maior, para deixar o código mais complexo e testar as possibilidades, ver se derrepende não acontece de trocar as letras erradas, e irá codificar da forma correta.
