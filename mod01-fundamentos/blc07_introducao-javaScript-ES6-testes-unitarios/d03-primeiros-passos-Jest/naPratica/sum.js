@@ -24,4 +24,4 @@ const soma = (a, b) => {
 };
 module.exports = soma;
 
-console.log(soma(7, "5.5"));
+console.log(soma(7, 0));
