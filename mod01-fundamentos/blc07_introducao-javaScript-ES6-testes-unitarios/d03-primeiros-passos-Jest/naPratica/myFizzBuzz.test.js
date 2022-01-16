@@ -6,3 +6,10 @@ describe('Requisito 1', () => {
     // neste caso, a linha 5 tb aceitaria .toString
   });
 });
+
+describe('Requisito 2', () => {
+  test('Faça uma chamada com um número divisível por 3 e verifique se o retorno é o esperado', () => {
+    expect(myFizzBuzz(6)).toString('fizz');
+    // neste caso, a linha 5 tb aceitaria .toMatch
+  });
+});
