@@ -18,18 +18,26 @@ const sum = (value1, value2) => {
   value2 = document.getElementById('value2').value;
   const result = parseInt(value1) + parseInt(value2);
   document.getElementById('result').innerHTML = `Resultado: ${result}`;
-  
+
   try{
     if(value1 === '' || value2 === ''){     
-      throw new Error('Valor 1 e Valor 2, devem receber números.');
+      throw new Error('Valor 1 e Valor 2, não devem estar vazios.');
     };
   } catch (errorVazio){
     document.getElementById('result').innerHTML = `Resultado: ${errorVazio.message}`;
-  }
+  };
+
+  try{
+    if(isNaN(value1) || isNaN(value2)){     
+      throw new Error('Valor 1 e Valor 2, devem receber números e não letras.');
+    };
+  } catch (errorLetra){
+    document.getElementById('result').innerHTML = `Resultado: ${errorLetra.message}`;
+  };
+
   document.getElementById('value1').value = '';
   document.getElementById('value2').value = '';
 }
-
 window.onload = () => {
   const button = document.getElementById('button');
   button.addEventListener('click', sum);
