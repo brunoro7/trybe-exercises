@@ -17,3 +17,10 @@ const lesson3 = {
   professor: 'Maria Clara',
   turno: 'noite',
 };
+
+let lesson = lesson2;
+
+const addNewKeyValue = (lesson) => {
+  console.log(lesson);
+}
+console.log(addNewKeyValue())
