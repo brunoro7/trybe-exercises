@@ -18,9 +18,13 @@ const lesson3 = {
   turno: 'noite',
 };
 
-let lesson = lesson2;
+const addNewKeyValue = (lesson, newKey, valorNewKey) => {
 
-const addNewKeyValue = (lesson) => {
-  console.log(lesson);
+  const lessonKey = [];
+  lessonKey.push(lesson);
+  lessonKey.push(newKey);
+  lessonKey.push(valorNewKey);
+
+  return lessonKey;
 }
-console.log(addNewKeyValue())
+console.log(addNewKeyValue(lesson2, 'novaChave', 'novoValor'))
