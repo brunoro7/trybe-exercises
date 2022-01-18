@@ -3,3 +3,7 @@ const msg1 = () => {
 }
 msg1()
 
+const msg2 = () => {
+  console.log('Bora toma um café!!');
+}
+msg2()
