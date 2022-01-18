@@ -1,0 +1,1 @@
+> ### Aqui está os exercícios e conteúdo relacionados ao bloco 8.
