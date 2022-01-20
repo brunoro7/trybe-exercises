@@ -1,0 +1,1 @@
+> ### Aqui está contido o conteúdo relacionado ao dia 02, do bloco 8, manipulando arrays com Hof's.
