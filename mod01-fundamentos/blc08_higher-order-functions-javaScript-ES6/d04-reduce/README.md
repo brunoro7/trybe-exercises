@@ -1,0 +1,1 @@
+> ### Aqui está contido o conteúdo relativo ao dia 4, do bloco 8, sobre .reduce.
