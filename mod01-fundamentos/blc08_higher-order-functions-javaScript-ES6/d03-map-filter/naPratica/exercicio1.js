@@ -74,3 +74,5 @@ const expectedResult = [
 function formatedBookNames() {
   // escreva seu código aqui
 }
+
+// formato = `${books.name} - ${books.genre} - ${books.(author.name)}`;
