@@ -1,20 +1,16 @@
-const msg1 = () => {
-  console.log('Acordando!!');
-}
+const msg1 = () => 'Acordando!!';
 // msg1()
 
-const msg2 = () => {
-  console.log('Bora toma um café!!');
-}
+const msg2 = () => 'Bora toma um café!!';
 // msg2()
 
-const msg3 = () => {
-  console.log('Partiu dormir!!');
-}
+const msg3 = () => 'Partiu dormir!!';
 // msg3()
 
-const doindThings = (mensagem1, mensagem2) => {
-  let aviso = mensagem1() + mensagem2();
-  return aviso;
+const doindThings = (callBackMSG) => {
+  const aviso = callBackMSG();
+  console.log(aviso);
 };
-doindThings(msg1, msg2);
+doindThings(msg1);
+doindThings(msg2);
+doindThings(msg3);
