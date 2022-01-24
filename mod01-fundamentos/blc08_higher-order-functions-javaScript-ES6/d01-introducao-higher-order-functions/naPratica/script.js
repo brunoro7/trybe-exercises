@@ -18,7 +18,21 @@
 
 /** ======= Exercicio 2 ======= */
 
-const numAle = Math.random() * 5;
-const numSorteado = parseInt(numAle);
+const sorteio = (number) => {
 
-console.log(numSorteado);
+  const numAle = Math.random() * 5;
+  const numSorteado = parseInt(numAle);
+  const numUsuario = parseInt(number);
+  // console.log(numSorteado);
+
+  return comparaNums(numSorteado, numUsuario);
+};
+
+const comparaNums = (numSorteado, numUsuario) => {
+  if (numSorteado === numUsuario) {
+    return 'Parabéns você ganhou.';
+  } else {
+    return 'Tente novamente.';
+  };
+};
+console.log(sorteio(4));
