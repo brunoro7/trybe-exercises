@@ -1,0 +1,1 @@
+> ### Aqui está contido os exercícios e conteúdos  do dia 5 do bloco 8, relacionados ao spread, rest e destructuring;
