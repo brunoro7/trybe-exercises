@@ -16,23 +16,32 @@
 // }
 // console.log(newEmployees(criarEmail));
 
-/** ======= Exercicio 2 ======= */
+// /** ======= Exercicio 2 ======= */
 
-const sorteio = (number) => {
+// const sorteio = (number) => {
 
-  const numAle = Math.random() * 5;
-  const numSorteado = parseInt(numAle);
-  const numUsuario = parseInt(number);
-  // console.log(numSorteado);
+//   const numAle = Math.random() * 5;
+//   const numSorteado = parseInt(numAle);
+//   const numUsuario = parseInt(number);
+//   // console.log(numSorteado);
 
-  return comparaNums(numSorteado, numUsuario);
-};
+//   return comparaNums(numSorteado, numUsuario);
+// };
 
-const comparaNums = (numSorteado, numUsuario) => {
-  if (numSorteado === numUsuario) {
-    return 'Parabéns você ganhou.';
-  } else {
-    return 'Tente novamente.';
-  };
-};
-console.log(sorteio(4));
+// const comparaNums = (numSorteado, numUsuario) => {
+//   if (numSorteado === numUsuario) {
+//     return 'Parabéns você ganhou.';
+//   } else {
+//     return 'Tente novamente.';
+//   };
+// };
+// console.log(sorteio(5));
+
+// /** ======= Exercicio 3 ======= */
+
+const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
+const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
+
+const comparaAnswer = (RIGHT_ANSWERS, STUDENT_ANSWERS) => {
+
+}
