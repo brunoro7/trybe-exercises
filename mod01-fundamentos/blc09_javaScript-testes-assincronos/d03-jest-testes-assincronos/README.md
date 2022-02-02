@@ -1,0 +1,1 @@
+> ### Aqui está contido o exercício relativo ao dia 3 do bloco 9, relativo a testes assíncronos no Jest.
