@@ -1,0 +1,1 @@
+> ### Este é o módulo de Front End, aqui estará a abordagem de temas como React, compenentes, forms, ciclos de vida, React Router, métodologias, testes automatizados, Redux, Context Api e React Hooks, e mais alguns projetos relativos ao contexto.
