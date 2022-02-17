@@ -1,0 +1,1 @@
+> ### Aqui está contido todo conteúd relacionado ao dia 02 do bloco 10, falando sobre componetes, prop types, e tipagem.
