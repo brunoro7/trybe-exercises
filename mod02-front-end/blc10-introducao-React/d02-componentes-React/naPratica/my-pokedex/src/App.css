@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  justify-content: center;
+  background-color: tomato;
+  list-style: none;
+  height: 700px;
+  align-items: center;
+  border: solid orange 2px;
+}
+
+.cards-pokedex {
+  width: 60%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: orange;
+  justify-content: space-evenly;
+  align-items: center;
+  border: solid white 2px;
+}
+
+li {
+  padding: 5px;
+  align-items: center;
+  display: flex;
+  width: 250px;
+  height: 100px;
+  background-color: antiquewhite;
+  border: solid red 2px;
+}
