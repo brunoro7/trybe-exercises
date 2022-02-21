@@ -37,5 +37,3 @@ Pokemon.propTypes = {
 };
 
 export default Pokemon;
-
-/** name, type, averageWeight , image*/
