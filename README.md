@@ -79,61 +79,61 @@ O programa conta com mais de 1.500 horas de aulas online, abordando Introdução
 ##### Bloco 9: JavaScript e Testes Assíncronos
 
 - [X] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Assí­ncrono - Fetch API e async/await_
-- [ ] 9-3: _Jest - Testes Assíncronos_
-- [ ] 9-4: _[Projeto - Carrinho de Compras]()_
+- [X] 9-2: _JavaScript Assí­ncrono - Fetch API e async/await_
+- [X] 9-3: _Jest - Testes Assíncronos_
+- [X] 9-4: _[Projeto - Carrinho de Compras]()_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 10: Introdução à React
 
-- [ ] 10-1: _Introdução - Front-end_
-- [ ] 10-1: _Introdução - React_
-- [ ] 10-1: _'Hello, world!' no React!_
-- [ ] 10-2: _Componentes React_
-- [ ] 10-3: _[Projeto - Sistema Solar]()_
+- [X] 10-1: _Introdução - Front-end_
+- [X] 10-1: _Introdução - React_
+- [X] 10-1: _'Hello, world!' no React!_
+- [X] 10-2: _Componentes React_
+- [X] 10-3: _[Projeto - Sistema Solar]()_
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
-- [ ] 11-1: _Componentes com Estado e Eventos_
-- [ ] 11-2: _Formulários no React_
-- [ ] 11-3: _[Projeto - Tryunfo]()_
+- [X] 11-1: _Componentes com Estado e Eventos_
+- [X] 11-2: _Formulários no React_
+- [X] 11-3: _[Projeto - Tryunfo]()_
 
 ##### Bloco 12: Ciclo de vida de componentes e React Router
 
-- [ ] 12-1: _Ciclo de vida de componentes_
-- [ ] 12-2: _React Router_
-- [ ] 12-3: _[Projeto - TrybeTunes]()_
+- [X] 12-1: _Ciclo de vida de componentes_
+- [X] 12-2: _React Router_
+- [X] 12-3: _[Projeto - TrybeTunes]()_
 
 ##### Bloco 13: Metodologias Ágeis
 
-- [ ] 13-1: _Metodologias Ágeis_
-- [ ] 13-2: _[Projeto - Frontend Online Store]()_
+- [X] 13-1: _Metodologias Ágeis_
+- [X] 13-2: _[Projeto - Frontend Online Store]()_
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
-- [ ] 14-1: _RTL - Primeiros passos_
-- [ ] 14-2: _RTL - Mocks e Inputs_
-- [ ] 14-3: _RTL - Testando React Router_
-- [ ] 14-4: _[Projeto - Testes em React]()_
+- [X] 14-1: _RTL - Primeiros passos_
+- [X] 14-2: _RTL - Mocks e Inputs_
+- [X] 14-3: _RTL - Testando React Router_
+- [X] 14-4: _[Projeto - Testes em React]()_
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 
-- [ ] 15-1: _Introdução ao Redux - O estado global da aplicação_
-- [ ] 15-2: _Usando o Redux no React_
-- [ ] 15-3: _Usando o Redux no React - Prática_
-- [ ] 15-4: _Usando o Redux no React - Actions Assíncronas_
-- [ ] 15-5: _Testes em React-Redux_
-- [ ] 15-6: _[Projeto - Trybe Wallet]()_
+- [X] 15-1: _Introdução ao Redux - O estado global da aplicação_
+- [X] 15-2: _Usando o Redux no React_
+- [X] 15-3: _Usando o Redux no React - Prática_
+- [X] 15-4: _Usando o Redux no React - Actions Assíncronas_
+- [X] 15-5: _Testes em React-Redux_
+- [X] 15-6: _[Projeto - Trybe Wallet]()_
 
 ##### Bloco 16: Projeto Jogo de Trivia
 
-- [ ] 16-1: _[Projeto - Jogo de Trivia]()_
+- [X] 16-1: _[Projeto - Jogo de Trivia]()_
 
 ##### Bloco 17: Context API e React Hooks
 
-- [ ] 17-1: _Context API do React_
-- [ ] 17-2: _React Hooks - useState e useContext_
+- [X] 17-1: _Context API do React_
+- [X] 17-2: _React Hooks - useState e useContext_
 - [ ] 17-3: _React Hooks - useEffect e Hooks customizados_
 - [ ] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
