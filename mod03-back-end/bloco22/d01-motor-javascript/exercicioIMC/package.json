@@ -1,0 +1,18 @@
+{
+  "name": "my-script",
+  "version": "1.0.0",
+  "description": "exericio para pratica criando uma função de IMC e mais alguns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "imc": "node src/IMC/imc.js",
+    "velocidade": "node src/VELOCIDADE/velocidade.js",
+    "sorteio": "node src/SORTEIO/sorteio.js"
+  },
+  "author": "brunoro7",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
