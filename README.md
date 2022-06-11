@@ -144,7 +144,8 @@ O programa conta com mais de 1.500 horas de aulas online, abordando Introdução
 ## Desenvolvimento Back-end
 
 ---
-> OBS: após mês de Abril de 2022 ouve a inclusão de um bloco sobre Docker ;
+> OBS: após o mês de Abril de 2022 houve a inclusão de um bloco sobre Docker e mais alguns ajustes; A grade curricular foi atualizada aqui, por completo, em 11/06/2022.
+
 ##### Bloco 19: Docker Utilizando Containers
 
 - [X] 19-1: _Introdução - Back-end_
@@ -163,90 +164,87 @@ O programa conta com mais de 1.500 horas de aulas online, abordando Introdução
 - [X] 20-4: _Manipulando tabelas_
 - [X] 20-5: _[Projeto - All For One]()_
 
-##### Bloco 21: Funções SQL, Joins e Subqueries
+##### Bloco 21: Funções SQL, Joins e Normalização
 
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs, UNIONs e Subqueries_
-- [ ] 21-3: _Stored Routines & Stored Functions_
-- [ ] 21-4: _[Projeto - Vocabulary Booster]()_
+- [X] 21-1: _Funções mais usadas no SQL_
+- [X] 21-2: _Descomplicando JOINs_
+- [X] 21-3: _Transformando ideias em um modelo de banco de dados_
+- [X] 21-4: _Aula ao vivo + [Projeto - One For All]()_
 
-##### Bloco 22: Normalização e Modelagem de banco de dados
+##### Bloco 22: Introdução ao Desenvolvimento Web com NodeJS
 
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados - Parte 1_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _[Projeto - One For All]()_
+- [X] 22-1: _Introdução NodeJs_
+- [X] 22-2: _Fluxo Assíncrono - NodeJS_
+- [X] 22-3: _Testes com NodeJS_
+- [X] 22-4: _Express: HTTP com NodeJS_
+- [X] 22-5: _Express: Middlewares_
+- [X] 22-6: _[Projeto - Talker Manager]()_
 
-##### Bloco 23: Introdução à MongoDB
+##### Bloco 23: NodeJS: Camada de serviço e arquitetura Rest e Restful
 
-- [ ] 23-1: _Introdução - NoSQL_
-- [ ] 23-1: _Introdução - MongoDB_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _[Projeto - Data Flights]()_
+- [ ] 23-1: _Arquitetura de Software_
+- [ ] 23-1: _Arquitetura de Software - Camada de Model_
+- [ ] 23-2: _Arquitetura de Software - Camada de Controller e Service_
+- [ ] 23-3: _Arquitetura Web - Rest e Restful_
+- [ ] 23-4: _Arquitetura de Software - Testando Camadas_
+- [ ] 23-5: _[Projeto - Store Manager]()_
 
-##### Bloco 24: MongoDB: Updates Simples e Complexos
+##### Bloco 24: Node.js: ORM e Autenticação
+
+- [ ] 24-1: _Introdução - Node.js: ORM e Autenticação_
+- [ ] 24-1: _ORM - Interface da aplicação com o banco de dados_
+- [ ] 24-2: _ORM - Associations_
+- [ ] 24-3: _JWT - (JSON Web Token)_
+- [ ] 24-4: _Testando APIs com Testes de Integração_
+- [ ] 24-5: _[Projeto - API de Blogs]()_
+
+##### Bloco 25: Deployment
+
+- [ ] 25-1: _Introdução - Deploy_
+- [ ] 25-1: _Infraestrutura - Deploy com Heroku_
+- [ ] 25-2: _Deploy - Docker & Heroku_
+- [ ] 25-3: _[Projeto - Stranger Things]()_
+
+##### Bloco 26: TypeScript
+
+- [ ] 26-1: _Introdução - TypeScript_
+- [ ] 26-1: _Introdução ao TypeScript_
+- [ ] 26-2: _Tipagem Estática e Generics_
+- [ ] 26-3: _Express com TypeScript_
+- [ ] 26-4: _[Projeto - Trybe Smith]()_
+
+##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
+
+- [ ] 26-1: _Introdução à Orientação a Objetos_
+- [ ] 26-2: _Herança e Interfaces_
+- [ ] 26-3: _Polimorfismo_
+- [ ] 26-4: _SOLID - Introdução e Princípios S, O e D_
+- [ ] 26-5: _SOLID - Princípios L e I_
+- [ ] 26-6: _[Projeto - Trybers and Dragons]()_
+
+##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
+
+- [ ] 26-4: _[Projeto - TFC - Trybe Futebol Clube]()_
+
+##### Bloco 29: Introdução à MongoDB
+
+- [ ] 29-1: _Introdução - NoSQL_
+- [ ] 29-1: _Introdução - MongoDB_
+- [ ] 29-2: _Filter Operators_
+- [ ] 29-3: _[Projeto - Data Flights]()_
 
 - [ ] 24-1: _Updates Simples_
 - [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
 - [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
 - [ ] 24-4: _[Projeto - Commerce]()_
 
-##### Bloco 25: MongoDB: Aggregation Framework
-
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _[Projeto - Aggregations]()_
-
-##### Bloco 26: Introdução ao Desenvolvimento Web com NodeJS
-
-- [ ] 26-1: _Introdução NodeJs_
-- [ ] 26-2: _Fluxo Assíncrono - NodeJS_
-- [ ] 26-3: _Testes com NodeJS_
-- [ ] 26-4: _Express: HTTP com NodeJS_
-- [ ] 26-5: _Express: Middlewares_
-- [ ] 26-6: _[Projeto - Talker Manager]()_
-
-##### Bloco 27: NodeJS: Camada de serviço e arquitetura Rest e Restful
-
-- [ ] 27-1: _Arquitetura de Software_
-- [ ] 27-1: _Arquitetura de Software - Camada de Model_
-- [ ] 27-2: _Arquitetura de Software - Camada de Controller e Service_
-- [ ] 27-3: _Arquitetura Web - Rest e Restful_
-- [ ] 27-4: _Arquitetura de Software - Testando Camadas_
-- [ ] 27-5: _[Projeto - Store Manager]()_
-
-##### Bloco 28: Autenticação e Upload de arquivos
-
-- [ ] 28-1: _NodeJS - JWT (JSON Web Token)_
-- [ ] 28-2: _NodeJS - Upload de arquivos com `multer`_
-- [ ] 28-3: _NodeJS - Testando APIs com testes de integração_
-- [ ] 28-4: _[Projeto - Cookmaster]()_
-
-##### Bloco 29: Deployment
-
-- [ ] 29-1: _Introdução - Deploy_
-- [ ] 29-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 29-2: _Deploy - Gerenciadores de processos_
-- [ ] 29-3: _[Projeto - Stranger Things]()_
-
-##### Bloco 30: Arquitetura: SOLID e ORM
-
-- [ ] 30-1: _Arquitetura - Princípios SOLID_
-- [ ] 30-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 30-3: _ORM - Associations_
-- [ ] 30-4: _[Projeto - API de Blogs]()_
-
-##### Bloco 31: Sockets
-
-- [ ] 31-1: _Arquitetura de Software - Camada de View_
-- [ ] 31-2: _Sockets - TCP/UDP & NET_
-- [ ] 31-3: _Sockets - Socket.io_
-- [ ] 31-4: _Sockets - Praticando Socket.io_
-- [ ] 31-5: _[Projeto - Webchat]()_
-
-##### Bloco 32: Projeto - App de Delivery
+##### Bloco 31: Projeto - App de Delivery
 
 - [ ] 32-1: _[Projeto - App de Delivery]()_
+
+##### Bloco 32: MasterClass - VPS, CI/CD
+- [ ] 31-1: _Dia 1 - VPS_
+- [ ] 31-2: _Dia 2_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
@@ -258,17 +256,17 @@ O programa conta com mais de 1.500 horas de aulas online, abordando Introdução
 - [ ] 33-3: _Testes_
 - [ ] 33-4: _[Projeto - Job Insights]()_
 
-##### Bloco 34: Programação orientada à objetos e padrões de projeto
+##### Bloco 34: Padrões de projeto
 
-- [ ] 34-1: _Introdução à programação orientada a objetos_
-- [ ] 34-2: _Herança, Composição e Interfaces_
-- [ ] 34-3: _Padrões de projeto_
+- [ ] 34-1: _P.O.O em Python_
+- [ ] 34-2: _Padrões - Interator, Adapter, Strategy_
+- [ ] 34-3: _Padrões - Decorator, Observer, Fatory_
 - [ ] 34-4: _[Projeto - Relatórios de Estoque]()_
 
 ##### Bloco 35: Redes e Raspagem de Dados
 
-- [ ] 35-1: _Arquitetura de redes_
-- [ ] 35-2: _Redes de computadores, ferramentas e segurança_
+- [ ] 35-1: _Arquitetura de redes, ferramentas e segurança_
+- [ ] 35-2: _Redes de computadores_
 - [ ] 35-3: _Raspagem de Dados_
 - [ ] 35-4: _[Projeto - Tech News]()_
 
@@ -279,17 +277,16 @@ O programa conta com mais de 1.500 horas de aulas online, abordando Introdução
 - [ ] 36-3: _Algoritmos de ordenação e busca_
 - [ ] 36-4: _[Projeto - Algoritmos]()_
 
-##### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
+##### Bloco 37: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
 
 - [ ] 37-1: _Arquitetura de Computadores_
 - [ ] 37-2: _Arrays_
-- [ ] 37-3: _Hashmaps e Dict_
-- [ ] 37-4: _Set_
-- [ ] 37-5: _[Projeto - Restaurant Orders]()_
+- [ ] 37-3: _Nós e Listas Encadeadas_
+- [ ] 37-4: _Pilhas e Filas_
+- [ ] 37-5: _[Projeto - TING - Trybe Is Not Google]()_
 
-##### Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
+##### Bloco 38: Estrutura de Dados II: Hashmaps e Sets
 
-- [ ] 38-1: _Nó e Listas Encadeadas_
-- [ ] 38-2: _Deque_
-- [ ] 38-3: _Pilhas_
-- [ ] 38-4: _[Projeto - TING (Trybe Is Not Google)]()_
+- [ ] 38-1: _Hashmap e Dict_
+- [ ] 38-2: _Set_
+- [ ] 38-3: _[Projeto - Restaurante Orders]()_
