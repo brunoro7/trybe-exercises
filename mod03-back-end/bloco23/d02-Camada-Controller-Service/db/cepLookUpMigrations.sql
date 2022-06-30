@@ -12,7 +12,7 @@ CREATE TABLE ceps(
   uf VARCHAR(2) NOT NULL
 );
 
+/** para cadastrar o cep é necessario ter no max 8 digitos; */
 INSERT INTO ceps ( cep, logradouro, bairro, localidade, uf) 
 VALUES
-  /** para cadastrar o cep é necessario ter no max 8 digitos; */
-  (01001000, "Praça da Sé", "Sé", "São Paulo", "SP");
+  (11001000, 'Praça da Sé', 'Sé', 'São Paulo', 'SP');

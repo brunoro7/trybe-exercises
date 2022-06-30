@@ -1,4 +1,5 @@
 const { Router } = require('express');
+const cepController = require('../controllers/cepController');
 const cepService = require('../services/cepService');
 
 const cepRoute = Router();
@@ -15,11 +16,13 @@ const cepRoute = Router();
 // cepRoute.get('/:cep', async (_req, res) => {
 // });
 
-cepRoute.get('/', async (_req, res) => {
-  const cepList = await cepService.getAllCeps();
-  // console.log(cepList);
-  res.status(200).json({ cepList });
-  // res.status(200);
+cepRoute.get('/', cepController.getAll);
+
+cepRoute.get('/:cep', async (req, res) => {
+  const respService = await cepService.validateCep(req.params.cep);
+  
+  console.log(respService, 'route');
+  res.status(400).json(respService);
 });
 
 module.exports = cepRoute;
